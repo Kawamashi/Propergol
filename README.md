@@ -27,6 +27,8 @@ La seule solution pour optimiser davantage le layout est de changer l’un des p
 -	d’intégrer une touche Repeat et une touche magique
 -	d’exploiter les possibilités offertes par les Clever Keys, qui rendent le layout adaptatif.
 
+&nbsp;</br>
+
 ## Détail des solutions employées
 L’utilisation des touches de pouce présente de nombreux avantages. En premier lieu, la disposition gagne une touche de repos. Le E était le candidat naturel vu sa fréquence d’utilisation en français comme en anglais. Son placement sous un pouce permet de mieux équilibrer la charge de tous les doigts. De plus, avoir une touche sous un pouce fait mécaniquement diminuer les SFB, les ciseaux et les mauvaises redirections.
 
