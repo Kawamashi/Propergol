@@ -87,6 +87,9 @@ De la même manière, la touche magique de Propergol est configurée pour produi
 L’usage de la touche 1DK est donc très réduit avec Propergol, aux alentours de 0.6 %. 
 
 ## Pour la programmation
+
+![symbols](https://github.com/Kawamashi/Propergol/blob/main/Propergol_symboles.png)
+
 Propergol utilise une couche de programmation inspirée de celle d’Ergo-L, accessible également avec Alt-gr. Cette dernière est très bien pensée, mais certaines choses me gênent un peu. Propergol propose une alternative, avec :
 -	les délimiteurs ()[]{}<>^$ sur la main gauche
 -	les symboles arithmétiques sur la home-row, avec / sous l’index
