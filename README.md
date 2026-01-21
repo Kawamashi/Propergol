@@ -13,7 +13,7 @@ Je voulais également avoir les caractères les plus utilisés en français en a
 * [Contexte](#contexte)
 * [Détail des solutions employées](#Détail-des-solutions-employées)
 * [La touche morte de Propergol](#La-touche-morte-de-Propergol)
-* [Pour la programmation](#Pour-la-programmation)
+* [Propergol pour la programmation](#Propergol-pour-la-programmation)
 * [Quelques choix de conception](#Quelques-choix-de-conception)
 * [Variantes](#Variantes)
 
@@ -93,7 +93,7 @@ De la même manière, la touche magique de Propergol est configurée pour produi
 
 L’usage de la touche 1DK est donc très réduit avec Propergol, aux alentours de 0.6 %. 
 
-## Pour la programmation
+## Propergol pour la programmation
 
 ![symbols](https://github.com/Kawamashi/Propergol/blob/main/Propergol_symboles.png)
 
