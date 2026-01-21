@@ -12,6 +12,10 @@ Je voulais également avoir les caractères les plus utilisés en français en a
 
 * [Contexte](#contexte)
 * [Détail des solutions employées](#Détail-des-solutions-employées)
+* [La touche morte de Propergol](#La-touche-morte-de-Propergol)
+* [Pour la programmation](#Pour-la-programmation)
+* [Quelques choix de conception](#Quelques-choix-de-conception)
+* [Variantes](#Variantes)
 
 ## Contexte
 Les dispositions alternatives équilibrent bien mieux la charge des doigts que l’AZERTY ou le QWERTY. Malgré ça, elles n’évitent pas la surcharge d’un doigt, comme l’index gauche en Bépo, le majeur de la même main en Ergo-L ou l’annulaire droit dans la plupart des layouts alternatifs modernes anglophones (Gallium, Graphite, Sturdy, etc).  Cette surcharge est inévitable, elle est principalement due au placement du E, lettre la plus utilisée en français et en anglais. 
