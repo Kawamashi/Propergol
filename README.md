@@ -66,6 +66,8 @@ Pour aller plus loin, voilà des règles optionnelles qui améliorent davantage 
   
 Au fur et à mesure de la pratique, l’utilisation des touches alternatives devient de plus en plus naturelle, et la charge cognitive diminue. 
 
+&nbsp;</br>
+
 ## La touche morte de Propergol
 Propergol utilise une touche morte de type Lafayette pour taper tous les caractères accentués ainsi que les caractères spéciaux :
 -	★ + voyelle → voyelle avec circonflexe
@@ -84,7 +86,9 @@ Propergol repousse les limites de la touche morte en l’implémentant comme une
 -	les caractères de la couche morte peuvent être enchaînés par un appui prolongé sur la touche 1DK
 -	la touche Repeat est capable de répéter un caractère de la couche 1DK
 -	on peut rendre la couche 1DK compatible avec d’autres fonctionnalités de QMK, comme Caps Word, les Clever Keys, etc.
--	si l’utilisateur le souhaite, `shift` + `1DK` peut s’appliquer au caractère suivant la touche morte. Par exemple, pour taper `Ô`, on peut faire `shift` + `1DK` + `O`. 
+-	si l’utilisateur le souhaite, `shift` + `1DK` peut s’appliquer au caractère suivant la touche morte. Par exemple, pour taper `Ô`, on peut faire `shift` + `1DK` + `O`.
+
+&nbsp;</br>
 
 ## Pour le français
 J’aime beaucoup l’approche Lafayette, mais je voulais que les caractères les plus fréquents soient en accès direct, notamment É, È, À et l’apostrophe. En contrepartie, j’ai accepté de mettre le Z en couche 1DK. 
@@ -94,6 +98,8 @@ De base, l’apostrophe est située sur la couche 1DK, au même endroit que la t
 De la même manière, la touche magique de Propergol est configurée pour produire À par défaut. À n’est employé qu’après un L (là, delà), un J (déjà), un Ç (deçà) ou si le caractère précédent n’est pas une autre lettre. Propergol n’utilise donc pas de règle magique commençant par L, J et Ç afin d’avoir À en accès direct. En backup, À est au même emplacement sur la couche 1DK.
 
 L’usage de la touche 1DK est donc très réduit avec Propergol, aux alentours de 0.6 %. 
+
+&nbsp;</br>
 
 ## Propergol pour la programmation
 
@@ -125,6 +131,8 @@ Les enchainements de symboles les plus courants sont confortables. Par exemple :
 
 Si vous préférez la couche de symboles d’Ergo-L, ce n’est pas un souci. Il vous suffit d’éditer le .toml de Propergol pour remplacer la couche Alt-gr par celle d’Ergo-L. Kalamine vous créera votre driver personnalisé en deux temps trois mouvements !
 
+&nbsp;</br>
+
 ## Quelques choix de conception
 Pour minimiser les redirections, toutes les voyelles sont placées du même côté. Pour garder une heatmap et une charge des doigts équilibrée d’une part, et ne pas faire exploser les SFB d’autre part, il faut mettre une consonne sous l’index côté voyelles. Le choix s’est rapidement porté sur le N. En effet, avoir le N côté voyelles permet d’avoir tous les “sons voyelles”, y compris ON, AN, IN et UN, sur la même moitié de clavier. De plus, N est une lettre “directive” : il y a quatre fois plus de bigrammes où N suit une voyelle que de bigrammes où une voyelle suit un N. Avec N sous l’index, la disposition a naturellement tendance à rouler vers l’intérieur.
 
@@ -133,6 +141,8 @@ Toujours pour favoriser les roulements vers l’intérieur tout en équilibrant 
 Grâce à ces deux choix de conception, toutes les voyelles sont sur la même moitié du clavier, et tous les sons voyelles (OI, AI, AU, AI, ON, AN, IN, etc) se font en roulements vers l’intérieur. Je trouve ça logique et super confortable !
 
 Je ne connais pas d’autres layouts ayant L sur la rangée de repos. C’est un choix logique, étant donné que L est la 9e lettre la plus employée en français, et la 10e en anglais. Cela dit, L est l’une des lettres les plus fréquemment doublées dans les deux langues, ce qui n’est pas confortable quand il faut le faire avec l’auriculaire. La touche Repeat répond à cette problématique.
+
+&nbsp;</br>
 
 ## Variantes
 Je préfère la position basse de l’auriculaire (le Z de QWERTY) à la position haute (le Q de QWERTY), mais pour certaines personnes c’est l’inverse. Dans ce cas, les touches des auriculaires peuvent être inversées sans souci, en adaptant quelques règles magiques :
