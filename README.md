@@ -11,7 +11,7 @@ Je voulais que Propergol soit extrêmement confortable, avec une heatmap et une 
 Je voulais également avoir les caractères les plus utilisés en français en accès direct, notamment É, À, È et l’apostrophe.
 
 * [Contexte](#contexte)
-* [Détail des solutions employées](#one-shot-for-all-mods) modifiers
+* [Détail des solutions employées](#Détail-des-solutions-employées)
 
 ## Contexte
 Les dispositions alternatives équilibrent bien mieux la charge des doigts que l’AZERTY ou le QWERTY. Malgré ça, elles n’évitent pas la surcharge d’un doigt, comme l’index gauche en Bépo, le majeur de la même main en Ergo-L ou l’annulaire droit dans la plupart des layouts alternatifs modernes anglophones (Gallium, Graphite, Sturdy, etc).  Cette surcharge est inévitable, elle est principalement due au placement du E, lettre la plus utilisée en français et en anglais. 
