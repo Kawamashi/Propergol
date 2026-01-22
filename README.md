@@ -109,7 +109,7 @@ Propergol utilise une couche de programmation inspirée de celle d’Ergo-L, acc
 -	les délimiteurs `()` `[]` `{}` en bloc sur la main gauche
 -	`<>` et `^$` sur la main gauche également
 -	les symboles arithmétiques `/` `-` `+` `*` en ligne, sur la home-row, avec `/` en position de repos de l’index
-- `"` et `'` facilement accessibles, sous l’index également
+- `"` et `'` facilement accessibles, avec l’index également
 -	 `;` en position de repos de l’autre index
 -	un bloc pour les opérateurs booléens `&` `|` `~`
 -	les symboles peu courants (`%` `#` `^` `@` `~`) dans les coins ou sur les colonnes intérieures
