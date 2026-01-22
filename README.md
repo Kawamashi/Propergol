@@ -7,7 +7,7 @@ Propergol est une disposition de clavier pour le français et l’anglais dont l
 
 Je voulais que Propergol soit extrêmement confortable, avec une heatmap et une charge des doigts très équilibrée et particulièrement peu de difficultés (bigrammes à un doigt, ciseaux, extensions latérales et mauvaises redirections). La disposition privilégie les roulements pour une expérience de frappe fluide, et plus particulièrement les roulements vers l’intérieur, les plus confortables. Elle minimise les redirections et les longues séquences tapées avec une seule main, qui fatiguent inutilement l’une des deux mains. Par conséquent, la frappe rebondit naturellement entre les deux mains. Elle reste “régulière” et rythmée.
 
-Je voulais également avoir les caractères les plus utilisés en français en accès direct, notamment É, À, È et l’apostrophe.
+Je voulais également avoir les caractères les plus utilisés en français **en accès direct**, notamment `É`, `À`, `È` et l’apostrophe.
 
 * [Contexte](#contexte)
 * [Détail des solutions employées](#Détail-des-solutions-employées)
