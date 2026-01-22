@@ -3,7 +3,6 @@
 
 ![layout](https://github.com/Kawamashi/Propergol/blob/main/Propergol2.png)
 
-## Présentation
 Propergol est une disposition de clavier pour le français et l’anglais dont le but est d’être la plus ergonomique possible. Pour ça, elle tire parti de toutes les possibilités offertes par les claviers ergo programmables, que ce soit au niveau de leur géométrie (avec leurs quatre touches de pouce au minimum) ou des possibilités offertes par leur firmware programmable. 
 
 Je voulais que Propergol soit extrêmement confortable, avec une heatmap et une charge des doigts très équilibrée et particulièrement peu de difficultés (bigrammes à un doigt, ciseaux, extensions latérales et mauvaises redirections). La disposition privilégie les roulements pour une expérience de frappe fluide, et plus particulièrement les roulements vers l’intérieur, les plus confortables. Elle minimise les redirections et les longues séquences tapées avec une seule main, qui fatiguent inutilement l’une des deux mains. Par conséquent, la frappe rebondit naturellement entre les deux mains. Elle reste “régulière” et rythmée.
@@ -36,9 +35,10 @@ Propergol utilise la touche Repeat et la touche Alt-Repeat de QMK. La touche Rep
 
 La touche Alt-Repeat produit un caractère en fonction de la lettre qui a été tapée avant. Propergol utilise Alt-Repeat comme une touche magique, pour éliminer les bigrammes les plus pénalisants de la disposition. Pour aller plus loin, cette touche peut aussi servir de raccourci pour des enchainements particulièrement fréquents (`ION`, `MENT`).
 
-Enfin, les Clever Keys étendent le concept de touche magique à tout le layout. Je m’en sers par exemple :
+Enfin, les Clever Keys étendent le concept de touche magique à tout le layout. On peut s’en servir par exemple :
 -	pour ajouter automatiquement le `U` entre `Q` et une voyelle (ou une apostrophe)
 -	pour mettre automatiquement la première lettre d’une phrase en majuscule
+-	pour remplacer l’apostrophe typographique par l’apostrophe droite à la volée
   
 Ces fonctionnalités permettent d’éliminer la totalité des SKB, la majeure partie des SFB (seulement 0.35 % en français et 0.4 % en anglais), des redirections fréquentes et des ciseaux.
 
@@ -69,7 +69,7 @@ Au fur et à mesure de la pratique, l’utilisation des touches alternatives dev
 &nbsp;</br>
 
 ## La touche morte de Propergol
-Propergol utilise une touche morte de type Lafayette pour taper tous les caractères accentués ainsi que les caractères spéciaux :
+Propergol utilise une [touche morte de type Lafayette](https://ergol.org/presentation/#impeccable-en-fran%C3%A7ais) pour taper tous les caractères accentués ainsi que les caractères spéciaux :
 -	`★` + voyelle → voyelle avec circonflexe
 -	`★` + `espace` → `_` (tiret bas). 
 -	Tous les caractères d’Ergo‑L sont présents sur Propergol
