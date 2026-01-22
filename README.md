@@ -12,6 +12,7 @@ Je voulais également avoir les caractères les plus utilisés en français **en
 * [Contexte](#contexte)
 * [Détail des solutions employées](#Détail-des-solutions-employées)
 * [La touche morte de Propergol](#La-touche-morte-de-Propergol)
+* [Pour le français et l’anglais](#Pour-le-français-et-l’anglais)
 * [Propergol pour la programmation](#Propergol-pour-la-programmation)
 * [Quelques choix de conception](#Quelques-choix-de-conception)
 * [Variantes](#Variantes)
@@ -69,10 +70,10 @@ Au fur et à mesure de la pratique, l’utilisation des touches alternatives dev
 &nbsp;</br>
 
 ## La touche morte de Propergol
-Propergol utilise une [touche morte de type Lafayette](https://ergol.org/presentation/#impeccable-en-fran%C3%A7ais) pour taper tous les caractères accentués ainsi que les caractères spéciaux :
+Propergol utilise une [touche morte de type Lafayette](https://ergol.org/presentation/#impeccable-en-fran%C3%A7ais) pour taper les caractères accentués, les diacritiques ainsi que les symboles typographiques :
 -	`★` + voyelle → voyelle avec circonflexe
--	`★` + `espace` → `_` (tiret bas). 
--	Tous les caractères d’Ergo‑L sont présents sur Propergol
+-	`ç` est en dessous du `c`, `œ` et `æ` sont au-dessus de `o` et `a` respectivement
+-	`★` + `espace` → `_` (tiret bas)
 -	Les différents guillemets doubles sont dans le pavé 3×10
 -	`★` + `-` (signe moins) → `−` (signe moins typographique)
 -	`★` + trait d’union → trait d’union insécable
@@ -90,7 +91,12 @@ Propergol repousse les limites de la touche morte en l’implémentant comme une
 
 &nbsp;</br>
 
-## Pour le français
+## Pour le français et l’anglais
+La disposition a été conçue pour que la frappe soit la plus confortable possible, dans les deux langues. 
+Je voulais que Propergol soit extrêmement confortable, avec une heatmap et une charge des doigts très équilibrée et particulièrement peu de difficultés (bigrammes à un doigt, ciseaux, extensions latérales et mauvaises redirections). La disposition privilégie les roulements pour une expérience de frappe fluide, et plus particulièrement les roulements vers l’intérieur, les plus confortables. Elle minimise les redirections et les longues séquences tapées avec une seule main, qui fatiguent inutilement l’une des deux mains. Par conséquent, la frappe rebondit naturellement entre les deux mains. Elle reste “régulière” et rythmée.
+
+Pour la typographie, tous les caractères d’Ergo‑L sont présents sur Propergol, comme les espaces insécables, l’apostrophe typographique, les tirets cadratins, etc.
+
 J’aime beaucoup l’approche Lafayette, mais je voulais que les caractères les plus fréquents soient en accès direct, notamment `É`, `È`, `À` et l’apostrophe. En contrepartie, j’ai accepté de mettre le `Z` en couche 1DK. 
 
 De base, l’apostrophe est située sur la couche 1DK, au même endroit que la touche Repeat. Néanmoins, on peut optimiser les choses en français. En effet, les occurrences de répétitions de lettres et de l’apostrophe y sont mutuellement exclusives. La touche `Repeat` est donc configurée pour donner une apostrophe lorsque la répétition de la dernière lettre est improbable.
