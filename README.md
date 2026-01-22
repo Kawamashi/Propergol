@@ -139,7 +139,7 @@ Toujours pour favoriser les roulements vers l’intérieur tout en équilibrant 
 
 Grâce à ces deux choix de conception, toutes les voyelles sont sur la même moitié du clavier, et tous les sons voyelles (`OI`, `AI`, `AU`, `AI`, `ON`, `AN`, `IN`, etc) se font en roulements vers l’intérieur. Je trouve ça logique et super confortable !
 
-Je ne connais pas d’autres layouts ayant `L` sur la rangée de repos. C’est un choix logique, étant donné que `L` est la 9e lettre la plus employée en français, et la 10e en anglais. Cela dit, `L` est l’une des lettres les plus fréquemment doublées dans les deux langues, ce qui n’est pas confortable quand il faut le faire avec l’auriculaire. La touche `Repeat` répond à cette problématique.
+Je ne connais pas d’autres layouts ayant `L` sur la rangée de repos. C’est pourtant un choix logique, étant donné que `L` est la 10e lettre la plus employée en français, et la 11e en anglais. Cela dit, `L` est l’une des lettres les plus fréquemment doublées dans les deux langues, ce qui n’est pas confortable quand il faut le faire avec l’auriculaire. La touche `Repeat` répond à cette problématique.
 
 &nbsp;</br>
 
