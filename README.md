@@ -105,11 +105,11 @@ L’usage de la touche 1DK est donc très réduit avec Propergol, aux alentours 
 
 ![symbols](https://github.com/Kawamashi/Propergol/blob/main/Propergol_symboles.png)
 
-Propergol utilise une couche de programmation inspirée de celle d’Ergo-L, accessible également avec Alt-gr. Cette dernière est très bien pensée, mais certaines choses me gênent un peu. Propergol propose une alternative, avec :
+Propergol utilise une couche de programmation inspirée de celle d’Ergo-L, accessible également avec `Alt-gr`. Cette dernière est très bien pensée, mais certaines choses me gênent un peu. Propergol propose une alternative, avec :
 -	les délimiteurs `()` `[]` `{}` en bloc sur la main gauche
 -	`<>` et `^$` sur la main gauche également
 -	les symboles arithmétiques en ligne, sur la home-row, avec `/` en position de repos de l’index
--	-	`"` et `'` facilement accessibles, sous l’index également
+- `"` et `'` facilement accessibles, sous l’index également
 -	 `;` en position de repos de l’autre index
 -	un bloc pour les opérateurs booléens `&` `|` `~`
 -	les symboles peu courants (`%` `#` `^` `@` `~`) dans les coins ou sur les colonnes intérieures
