@@ -107,6 +107,165 @@ L’usage de la touche 1DK est donc très réduit avec Propergol, aux alentours 
 
 &nbsp;</br>
 
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2">Langue</th>
+      <th rowspan="2">Layout</th>
+      <th colspan="3">Same Finger</th>
+      <th rowspan="2">LSB</th>
+      <th colspan="3">Ciseaux</th>
+      <th colspan="3">Redirections</th>
+      <th rowspan="2">CC*</th>
+    </tr>
+    <tr>
+      <th>SFB</th>
+      <th>SFS</th>
+      <th>STS</th>
+      <th>FSB</th>
+      <th>HSB</th>
+      <th>2UB</th>
+      <th>Total</th>
+      <th>Bad Redir</th>
+      <th>SHS</th>
+    </tr>
+  </thead>
+   <tr>
+    <td colspan ="13"> </td>
+   </tr>
+   <tr>
+    <th rowspan="4">Français</th>
+    <th>Propergol base</th>
+    <td>0.39 %</td>
+    <td>3.71 %</td>
+    <td>1.20 %</td>
+    <td>1.12 %</td>
+    <td>0.09 %</td>
+    <td>2.37 %</td>
+    <td>0.44 %</td>
+    <td>7.46 %</td>
+    <td>0.24 %</td>
+    <td>2.54 %</td>
+    <td>5.08 %</td>
+   </tr>
+   <tr>
+    <th>Propergol + options</th>
+    <td>0.36 %</td>
+    <td>3.79 %</td>
+    <td>1.24 %</td>
+    <td>1.12 %</td>
+    <td>0.08 %</td>
+    <td>2.00 %</td>
+    <td>0.31 %</td>
+    <td>5.56 %</td>
+    <td>0.21 %</td>
+    <td>2.44 %</td>
+    <td>6.47 %</td>
+   </tr>
+   <tr>
+    <th>Ergo-L</th>
+    <td>1.18 %</td>
+    <td>5.11 %</td>
+    <td>0.05 %</td>
+    <td>1.90 %</td>
+    <td>0.21 %</td>
+    <td>4.66 %</td>
+    <td>0.87 %</td>
+    <td>10.76 %</td>
+    <td>2.08 %</td>
+    <td>7.76 %</td>
+    <td>3.60 %</td>
+   </tr>
+    <tr>
+    <th>Erglace</th>
+    <td>0.90 %</td>
+    <td>4.99 %</td>
+    <td>0.03 %</td>
+    <td>1.41 %</td>
+    <td>0.23 %</td>
+    <td>2.90 %</td>
+    <td>1.02 %</td>
+    <td>4.21 %</td>
+    <td>0.31 %</td>
+    <td>2.77 %</td>
+    <td>3.71 %</td>
+   </tr>
+   <tr>
+    <td colspan ="13"> </td>
+   </tr>
+   <tr>
+    <th rowspan="5">Anglais</th>
+    <th>Propergol base</th>
+    <td>0.42 %</td>
+    <td>5.49 %</td>
+    <td>0.82 %</td>
+    <td>1.93 %</td>
+    <td>0.12 %</td>
+    <td>2.56 %</td>
+    <td>0.73 %</td>
+    <td>8.94 %</td>
+    <td>0.97 %</td>
+    <td>2.95 %</td>
+    <td>2.91 %</td>
+   </tr>
+   <tr>
+    <th>Propergol + options</th>
+    <td>0.42 %</td>
+    <td>4.87 %</td>
+    <td>0.83 %</td>
+    <td>1.68 %</td>
+    <td>0.13 %</td>
+    <td>2.07 %</td>
+    <td>0.48 %</td>
+    <td>6.71 %</td>
+    <td>0.16 %</td>
+    <td>2.66 %</td>
+    <td>4.01 %</td>
+   </tr>
+   <tr>
+    <th>Ergo-L</th>
+    <td>1.39 %</td>
+    <td>7.32 %</td>
+    <td>0.38 %</td>
+    <td>4.61 %</td>
+    <td>0.19 %</td>
+    <td>4.92 %</td>
+    <td>1.08 %</td>
+    <td>13.65 %</td>
+    <td>2.29 %</td>
+    <td>8.45 %</td>
+    <td>0.59 %</td>
+   </tr>
+   <tr>
+    <th>Erglace</th>
+    <td>1.32 %</td>
+    <td>5.66 %</td>
+    <td>0.46 %</td>
+    <td>2.98 %</td>
+    <td>0.18 %</td>
+    <td>4.70 %</td>
+    <td>1.33 %</td>
+    <td>3.35 %</td>
+    <td>0.39 %</td>
+    <td>0.65 %</td>
+    <td>0.98 %</td>
+   </tr>
+   <tr>
+    <th>Sturdy</th>
+    <td>0.86 %</td>
+    <td>5.10 %</td>
+    <td>0.00 %</td>
+    <td>4.11 %</td>
+    <td>0.31 %</td>
+    <td>3.03 %</td>
+    <td>1.54 %</td>
+    <td>6.15 %</td>
+    <td>0.35 %</td>
+    <td>2.66 %</td>
+    <td>0.00 %</td>
+   </tr>
+</table>
+
 ## Propergol pour la programmation
 
 ![symbols](https://github.com/Kawamashi/Propergol/blob/main/Propergol_symboles.png)
