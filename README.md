@@ -92,10 +92,10 @@ Propergol repousse les limites de la touche morte en l’implémentant comme une
 &nbsp;</br>
 
 ## Pour le français et l’anglais
-La disposition a été conçue pour que la frappe soit la plus confortable possible, dans les deux langues. 
+La disposition a été conçue pour que la frappe soit la plus confortable possible, dans les deux langues. Pour permettre cela, le H (9e lettre la plus fréquente en anglais) et le U (8e lettre la plus fréquente en français) n’ont pas été placées sur la rangée de repos, mais sur des touches néanmoins très accessibles. 
 Je voulais que Propergol soit extrêmement confortable, avec une heatmap et une charge des doigts très équilibrée et particulièrement peu de difficultés (bigrammes à un doigt, ciseaux, extensions latérales et mauvaises redirections). La disposition privilégie les roulements pour une expérience de frappe fluide, et plus particulièrement les roulements vers l’intérieur, les plus confortables. Elle minimise les redirections et les longues séquences tapées avec une seule main, qui fatiguent inutilement l’une des deux mains. Par conséquent, la frappe rebondit naturellement entre les deux mains. Elle reste “régulière” et rythmée.
 
-Pour la typographie, tous les caractères d’Ergo‑L sont présents sur Propergol, comme les espaces insécables, l’apostrophe typographique, les tirets cadratins, etc.
+Pour la typographie, tous les caractères d’Ergo‑L sont présents sur Propergol, comme les majuscules accentuées, les espaces insécables, l’apostrophe typographique, les tirets cadratins, etc.
 
 J’aime beaucoup l’approche Lafayette, mais je voulais que les caractères les plus fréquents soient en accès direct, notamment `É`, `È`, `À` et l’apostrophe. En contrepartie, j’ai accepté de mettre le `Z` en couche 1DK. 
 
