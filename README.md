@@ -12,6 +12,7 @@ Je voulais également avoir les caractères les plus utilisés en français **en
 * [Contexte](#contexte)
 * [Détail des solutions employées](#Détail-des-solutions-employées)
 * [La touche morte de Propergol](#La-touche-morte-de-Propergol)
+* [Pour le français](#Pour-le-français)
 * [Pour le français et l'anglais](#Pour-le-français-et-l'anglais)
 * [Propergol pour la programmation](#Propergol-pour-la-programmation)
 * [Quelques choix de conception](#Quelques-choix-de-conception)
@@ -93,6 +94,7 @@ Propergol repousse les limites de la touche morte en l’implémentant comme une
 &nbsp;</br>
 
 ## Pour le français et l'anglais
+## Pour le français
 Propergol a été conçu pour que la frappe soit la plus confortable possible, dans les deux langues. Pour permettre cela, le `H` (9e lettre la plus fréquente en anglais) et le `U` (8e lettre la plus fréquente en français) n’ont pas été placées sur la rangée de repos, mais sur des touches néanmoins très accessibles. Grâce à ce compromis, la heatmap et la charge des doigts sont équilibrées dans les deux langues. 
 
 Les enchainements de lettres ont été étudiés de manière à créer le moins de difficultés possibles (bigrammes à un doigt, ciseaux, extensions latérales et mauvaises redirections). Grâce à l’usage des touches de pouce, des touches Repeat et Magic ainsi que des Clever Keys, Propergol contient ces difficultés à un niveau plancher :
