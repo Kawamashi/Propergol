@@ -92,20 +92,9 @@ Propergol repousse les limites de la touche morte en l’implémentant comme une
 &nbsp;</br>
 
 ## Pour le français et l’anglais
-La disposition a été conçue pour que la frappe soit la plus confortable possible, dans les deux langues. Pour permettre cela, le H (9e lettre la plus fréquente en anglais) et le U (8e lettre la plus fréquente en français) n’ont pas été placées sur la rangée de repos, mais sur des touches néanmoins très accessibles. 
-Je voulais que Propergol soit extrêmement confortable, avec une heatmap et une charge des doigts très équilibrée et particulièrement peu de difficultés (bigrammes à un doigt, ciseaux, extensions latérales et mauvaises redirections). La disposition privilégie les roulements pour une expérience de frappe fluide, et plus particulièrement les roulements vers l’intérieur, les plus confortables. Elle minimise les redirections et les longues séquences tapées avec une seule main, qui fatiguent inutilement l’une des deux mains. Par conséquent, la frappe rebondit naturellement entre les deux mains. Elle reste “régulière” et rythmée.
+Propergol a été conçu pour que la frappe soit la plus confortable possible, dans les deux langues. Pour permettre cela, le H (9e lettre la plus fréquente en anglais) et le U (8e lettre la plus fréquente en français) n’ont pas été placées sur la rangée de repos, mais sur des touches néanmoins très accessibles. Grâce à ce compromis, la heatmap et la charge des doigts sont équilibrées dans les deux langues. 
 
-Pour la typographie, tous les caractères d’Ergo‑L sont présents sur Propergol, comme les majuscules accentuées, les espaces insécables, l’apostrophe typographique, les tirets cadratins, etc.
-
-J’aime beaucoup l’approche Lafayette, mais je voulais que les caractères les plus fréquents soient en accès direct, notamment `É`, `È`, `À` et l’apostrophe. En contrepartie, j’ai accepté de mettre le `Z` en couche 1DK. 
-
-De base, l’apostrophe est située sur la couche 1DK, au même endroit que la touche Repeat. Néanmoins, on peut optimiser les choses en français. En effet, les occurrences de répétitions de lettres et de l’apostrophe y sont mutuellement exclusives. La touche `Repeat` est donc configurée pour donner une apostrophe lorsque la répétition de la dernière lettre est improbable.
-
-De la même manière, la touche magique de Propergol est configurée pour produire `À` par défaut. `À` n’est employé qu’après un `L` (`là`, `delà`), un `J` (`déjà`), un `Ç` (`deçà`) ou si le caractère précédent n’est pas une autre lettre. Propergol n’utilise donc pas de règle magique commençant par `L`, `J` et `Ç` afin d’avoir `À` en accès direct. En backup, `À` est au même emplacement sur la couche 1DK.
-
-L’usage de la touche 1DK est donc très réduit avec Propergol, aux alentours de 0.6 %. 
-
-&nbsp;</br>
+Les enchainements de lettres ont été étudiés de manière à créer le moins de difficultés possibles (bigrammes à un doigt, ciseaux, extensions latérales et mauvaises redirections). Grâce à l’usage des touches de pouce, des touches Repeat et Magic ainsi que des Clever Keys, Propergol contient ces difficultés à un niveau plancher :
 
 <table>
   <thead>
@@ -265,6 +254,16 @@ L’usage de la touche 1DK est donc très réduit avec Propergol, aux alentours 
     <td>0.00 %</td>
    </tr>
 </table>
+&nbsp;</br>
+
+Pour la typographie, tous les caractères d’Ergo‑L sont présents sur Propergol (majuscules accentuées, espaces insécables, apostrophe typographique, tirets cadratins, etc), notamment grâce à la touche morte.
+J’aime beaucoup l’approche Lafayette, mais je voulais que les caractères les plus fréquents en français soient en accès direct, notamment `É`, `È`, `À` et l’apostrophe. En contrepartie, j’ai accepté de mettre le `Z` en couche 1DK. 
+
+De base, l’apostrophe est située sur la couche 1DK, au même endroit que la touche Repeat. Néanmoins, on peut optimiser les choses en français. En effet, les occurrences de répétitions de lettres et de l’apostrophe y sont mutuellement exclusives. La touche `Repeat` est donc configurée pour donner une apostrophe lorsque la répétition de la dernière lettre est improbable.
+
+De la même manière, la touche magique de Propergol est configurée pour produire `À` par défaut. `À` n’est employé qu’après un `L` (`là`, `delà`), un `J` (`déjà`), un `Ç` (`deçà`) ou si le caractère précédent n’est pas une autre lettre. Propergol n’utilise donc pas de règle magique commençant par `L`, `J` et `Ç` afin d’avoir `À` en accès direct. En backup, `À` est au même emplacement sur la couche 1DK.
+
+L’usage de la touche 1DK est donc très réduit avec Propergol, aux alentours de 0.6 %. 
 
 ## Propergol pour la programmation
 
