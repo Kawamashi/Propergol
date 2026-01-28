@@ -97,6 +97,8 @@ Propergol a été conçu pour que la frappe soit la plus confortable possible, d
 
 Les enchainements de lettres ont été étudiés de manière à créer le moins de difficultés possibles (bigrammes à un doigt, ciseaux, extensions latérales et mauvaises redirections). Grâce à l’usage des touches de pouce, des touches Repeat et Magic ainsi que des Clever Keys, Propergol contient ces difficultés à un niveau plancher :
 
+&nbsp;</br>
+
 <table>
   <thead>
     <tr>
