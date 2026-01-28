@@ -18,7 +18,7 @@ Je voulais également avoir les caractères les plus utilisés en français **en
 * [Variantes](#Variantes)
 
 ## Contexte
-Les dispositions alternatives équilibrent bien mieux la charge des doigts que l’AZERTY ou le QWERTY. Malgré ça, elles n’évitent pas la surcharge d’un doigt, comme l’index gauche en Bépo, le majeur de la même main en Ergo-L ou l’annulaire droit dans la plupart des layouts alternatifs modernes anglophones (Gallium, Graphite, Sturdy, etc).  Cette surcharge est inévitable, elle est principalement due au placement du E, lettre la plus utilisée en français et en anglais. 
+Les dispositions alternatives équilibrent bien mieux la charge des doigts que l’AZERTY ou le QWERTY. Malgré ça, elles n’évitent pas la surcharge d’un doigt, comme l’index gauche en Bépo, le majeur de la même main en [Ergo-L](https://ergol.org/) ou l’annulaire droit dans la plupart des layouts alternatifs modernes anglophones ([Gallium](https://github.com/GalileoBlues/Gallium), [Graphite](https://github.com/rdavison/graphite-layout), [Sturdy](https://oxey.dev/sturdy/index.html), etc).  Cette surcharge est inévitable, elle est principalement due au placement du `E`, lettre la plus utilisée en français et en anglais. 
 
 De même, ces dispositions améliorent beaucoup le confort de frappe, en diminuant drastiquement la quantité de bigrammes à un doigt (SFB), de ciseaux, d’extensions latérales (LSB) et de mauvaises redirections en comparaison avec les dispositions historiques. Cependant, arrivé à un certain degré d’optimisation, il devient impossible de descendre en dessous d’un certain plancher de difficultés sans déséquilibrer le layout. De plus, ces dispositions ne peuvent pas éviter les répétitions de même touche (SKB). 
 
@@ -30,29 +30,30 @@ La seule solution pour optimiser davantage le layout est de changer l’un des p
 &nbsp;</br>
 
 ## Détail des solutions employées
-L’utilisation des touches de pouce présente de nombreux avantages. En premier lieu, la disposition gagne une touche de repos. Le E était le candidat naturel vu sa fréquence d’utilisation en français comme en anglais. Son placement sous un pouce permet de mieux équilibrer la charge de tous les doigts. De plus, avoir une touche sous un pouce fait mécaniquement diminuer les SFB, les ciseaux et les mauvaises redirections.
+L’utilisation des touches de pouce présente de nombreux avantages. En premier lieu, la disposition gagne une touche de repos. Le `E` était le candidat naturel vu sa fréquence d’utilisation en français comme en anglais. Son placement sous un pouce permet de mieux équilibrer la charge de tous les doigts. De plus, avoir une touche sous un pouce fait mécaniquement diminuer les SFB, les ciseaux et les mauvaises redirections.
 
-Propergol utilise la touche Repeat et la touche Alt-Repeat de QMK. La touche Repeat permet de répéter la dernière touche tapée. En la mettant sous un pouce, on transforme tous les SKB en roulements vers l’intérieur, l’enchainement le plus confortable ! 
+Propergol utilise la touche [Repeat](https://docs.qmk.fm/features/repeat_key) et la touche [Alt-Repeat](https://docs.qmk.fm/features/repeat_key#alternate-repeating) de QMK. La touche Repeat permet de répéter la dernière touche tapée. En la mettant sous un pouce, on transforme tous les SKB en roulements vers l’intérieur, l’enchainement le plus confortable ! 
 
 La touche Alt-Repeat produit un caractère en fonction de la lettre qui a été tapée avant. Propergol utilise Alt-Repeat comme une touche magique, pour éliminer les bigrammes les plus pénalisants de la disposition. Pour aller plus loin, cette touche peut aussi servir de raccourci pour des enchainements particulièrement fréquents (`ION`, `MENT`).
 
 Enfin, les Clever Keys étendent le concept de touche magique à tout le layout. On peut s’en servir par exemple :
 -	pour ajouter automatiquement le `U` entre `Q` et une voyelle (ou une apostrophe)
 -	pour mettre automatiquement la première lettre d’une phrase en majuscule
--	pour remplacer l’apostrophe typographique par l’apostrophe droite à la volée
+-	pour tout autre usage permis par la touche magique
   
 Ces fonctionnalités permettent d’éliminer la totalité des SKB, la majeure partie des SFB (seulement 0.35 % en français et 0.4 % en anglais), des redirections fréquentes et des ciseaux.
 
-Cependant, il y a une contrepartie. On se débarrasse des enchainements inconfortables en utilisant des touches autres que celles qui produisent le caractère habituellement. Par exemple, `U` et `I` sont sur la même colonne. Pour que `UI` ne soit pas un SFB, il faut utiliser la touche magique pour taper I. Cela crée une charge cognitive. Il ne faut donc pas abuser de ces touches alternatives. Pour fonctionner correctement, Propergol a besoin de 7 règles magiques :
+Cependant, il y a une contrepartie. On se débarrasse des enchainements inconfortables en utilisant des touches autres que celles qui produisent le caractère habituellement. Par exemple, `U` et `I` sont sur la même colonne. Pour que `UI` ne soit pas un SFB, il faut utiliser la touche magique pour taper `I`. Cela crée une charge cognitive. Il ne faut donc pas abuser de ces touches alternatives. Pour fonctionner correctement, Propergol a besoin de 7 règles magiques :
 -	`U` + `Magic` → `UI` : transforme le SFB `UI` en bigramme vers l’intérieur
 -	`Q` + voyelle / apostrophe → insère le `U` automatiquement pour éviter le ciseau `QU` et diminue de moitié les occurrences de `UI` (dues à `QUI`).
--	`Q` + `Magic` → `QUÉ` : transforme le ciseau `QÉ` en bigramme vers l’intérieur
 -	`Q` + `H` → `QUOI` : transforme presque tous les SFB `QO` en bigrammes vers l’intérieur
 -	`S` + `Magic` → `SC` : transforme le SFB `SC` en bigramme vers l’intérieur
 -	`P` + `Magic` → `PH` : transforme le SFB `PH` en bigramme vers l’intérieur 
--	`N` + `Magic` → `N`. : transforme le SFB `PH` en bigramme vers l’intérieur 
+-	`N` + `Magic` → `N.` : transforme le SFB `N.` en bigramme vers l’intérieur
+- `Y` + `Magic` → `YI` : transforme le SFB `YI` en bigramme vers l’intérieur 
 
 Pour aller plus loin, voilà des règles optionnelles qui améliorent davantage la disposition :
+-	`Q` + `Magic` → `QUÉ`
 -	`Q` + `N` → `QUAND`
 -	`I` + `Magic` → `ION`
 -	`M` (si précédé d’une lettre) + `Magic` → `MENT`
@@ -81,18 +82,18 @@ Propergol utilise une [touche morte de type Lafayette](https://ergol.org/present
 -	`★` + `T` → `/`
 -	etc.
   
-Propergol repousse les limites de la touche morte en l’implémentant comme une couche QMK, accessible avec un one-shot layer. De cette manière : 
+Propergol repousse les limites de la touche morte en l’implémentant comme une couche QMK, accessible avec un [one-shot layer](https://docs.qmk.fm/one_shot_keys). De cette manière : 
 -	l’utilisateur peut personnaliser la couche 1DK sans avoir besoin de retoucher le driver 
 -	la touche morte peut être annulée par un autre appui sur celle-ci
 -	les caractères de la couche morte peuvent être enchaînés par un appui prolongé sur la touche 1DK
 -	la touche Repeat est capable de répéter un caractère de la couche 1DK
--	on peut rendre la couche 1DK compatible avec d’autres fonctionnalités de QMK, comme Caps Word, les Clever Keys, etc.
+-	on peut rendre la couche 1DK compatible avec d’autres fonctionnalités de QMK, comme [Caps Word](https://docs.qmk.fm/features/caps_word), les Clever Keys, etc.
 -	si l’utilisateur le souhaite, `shift` + `1DK` peut s’appliquer au caractère suivant la touche morte. Par exemple, pour taper `Ô`, on peut faire `shift` + `1DK` + `O`.
 
 &nbsp;</br>
 
 ## Pour le français et l’anglais
-Propergol a été conçu pour que la frappe soit la plus confortable possible, dans les deux langues. Pour permettre cela, le H (9e lettre la plus fréquente en anglais) et le U (8e lettre la plus fréquente en français) n’ont pas été placées sur la rangée de repos, mais sur des touches néanmoins très accessibles. Grâce à ce compromis, la heatmap et la charge des doigts sont équilibrées dans les deux langues. 
+Propergol a été conçu pour que la frappe soit la plus confortable possible, dans les deux langues. Pour permettre cela, le `H` (9e lettre la plus fréquente en anglais) et le `U` (8e lettre la plus fréquente en français) n’ont pas été placées sur la rangée de repos, mais sur des touches néanmoins très accessibles. Grâce à ce compromis, la heatmap et la charge des doigts sont équilibrées dans les deux langues. 
 
 Les enchainements de lettres ont été étudiés de manière à créer le moins de difficultés possibles (bigrammes à un doigt, ciseaux, extensions latérales et mauvaises redirections). Grâce à l’usage des touches de pouce, des touches Repeat et Magic ainsi que des Clever Keys, Propergol contient ces difficultés à un niveau plancher :
 
@@ -123,7 +124,7 @@ Les enchainements de lettres ont été étudiés de manière à créer le moins 
     <td colspan ="13"> </td>
    </tr>
    <tr>
-    <th rowspan="4">Français</th>
+    <th rowspan="5">Français</th>
     <th>Propergol base</th>
     <td>0.39 %</td>
     <td>3.71 %</td>
@@ -178,6 +179,9 @@ Les enchainements de lettres ont été étudiés de manière à créer le moins 
     <td>0.31 %</td>
     <td>2.77 %</td>
     <td>3.71 %</td>
+   </tr>
+   <tr>
+    <td colspan ="12"> </td>
    </tr>
    <tr>
     <td colspan ="13"> </td>
@@ -292,7 +296,7 @@ Les enchainements de symboles les plus courants sont confortables. Par exemple :
 
 
 
-Si vous préférez la couche de symboles d’Ergo-L, ce n’est pas un souci. Il vous suffit d’éditer le .toml de Propergol pour remplacer la couche Alt-gr par celle d’Ergo-L. Kalamine vous créera votre driver personnalisé en deux temps trois mouvements !
+Si vous préférez la couche de symboles d’Ergo-L, ce n’est pas un souci. Il vous suffit d’éditer le .toml de Propergol pour remplacer la couche Alt-gr par celle d’Ergo-L. [Kalamine](https://github.com/OneDeadKey/kalamine) vous créera votre driver personnalisé en deux temps trois mouvements !
 
 &nbsp;</br>
 
