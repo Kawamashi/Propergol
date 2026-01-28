@@ -12,7 +12,7 @@ Je voulais également avoir les caractères les plus utilisés en français **en
 * [Contexte](#contexte)
 * [Détail des solutions employées](#Détail-des-solutions-employées)
 * [La touche morte de Propergol](#La-touche-morte-de-Propergol)
-* [Pour le français et l’anglais](#Pour-le-français-et-l'anglais)
+* [Pour le français et l'anglais](#Pour-le-français-et-l'anglais)
 * [Propergol pour la programmation](#Propergol-pour-la-programmation)
 * [Quelques choix de conception](#Quelques-choix-de-conception)
 * [Variantes](#Variantes)
