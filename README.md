@@ -108,7 +108,7 @@ Les enchainements de lettres ont été étudiés de manière à créer le moins 
       <th rowspan="2">LSB</th>
       <th colspan="3">Ciseaux</th>
       <th colspan="3">Redirections</th>
-      <th rowspan="2">CC*</th>
+      <th rowspan="2">CC</th>
     </tr>
     <tr>
       <th>SFB</th>
@@ -158,7 +158,7 @@ Les enchainements de lettres ont été étudiés de manière à créer le moins 
     <th>Ergo-L</th>
     <td>1.18 %</td>
     <td>5.11 %</td>
-    <td>0.05 %</td>
+    <td>0.00 %</td>
     <td>1.90 %</td>
     <td>0.21 %</td>
     <td>4.66 %</td>
@@ -172,7 +172,7 @@ Les enchainements de lettres ont été étudiés de manière à créer le moins 
     <th>Erglace</th>
     <td>0.90 %</td>
     <td>4.99 %</td>
-    <td>0.03 %</td>
+    <td>0.00 %</td>
     <td>1.41 %</td>
     <td>0.23 %</td>
     <td>2.90 %</td>
@@ -221,7 +221,7 @@ Les enchainements de lettres ont été étudiés de manière à créer le moins 
     <th>Ergo-L</th>
     <td>1.39 %</td>
     <td>7.32 %</td>
-    <td>0.38 %</td>
+    <td>0.00 %</td>
     <td>4.61 %</td>
     <td>0.19 %</td>
     <td>4.92 %</td>
@@ -235,7 +235,7 @@ Les enchainements de lettres ont été étudiés de manière à créer le moins 
     <th>Erglace</th>
     <td>1.32 %</td>
     <td>5.66 %</td>
-    <td>0.46 %</td>
+    <td>0.00 %</td>
     <td>2.98 %</td>
     <td>0.18 %</td>
     <td>4.70 %</td>
@@ -261,6 +261,8 @@ Les enchainements de lettres ont été étudiés de manière à créer le moins 
    </tr>
 </table>
 &nbsp;</br>
+
+Vous trouverez un glossaire de toutes les abréviations utilisées par Kawalyser [ici](https://github.com/Kawamashi/Kawalyser/blob/main/Glossaire.md).
 
 Pour la typographie, tous les caractères d’Ergo‑L sont présents sur Propergol (majuscules accentuées, espaces insécables, apostrophe typographique, tirets cadratins, etc), notamment grâce à la touche morte.
 J’aime beaucoup l’approche Lafayette, mais je voulais que les caractères les plus fréquents en français soient en accès direct, notamment `É`, `È`, `À` et l’apostrophe. En contrepartie, j’ai accepté de mettre le `Z` en couche 1DK. 
