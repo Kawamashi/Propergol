@@ -24,24 +24,25 @@ De même, ces dispositions améliorent beaucoup le confort de frappe, en diminua
 
 La seule solution pour optimiser davantage le layout est de changer l’un des postulats de base, à savoir la compatibilité avec un clavier standard. À ce titre, Propergol propose : 
 -	d’utiliser quatre touches de pouce au lieu de la seule barre d’espace
--	d’intégrer une touche Repeat et une touche magique
--	d’exploiter les possibilités offertes par les Clever Keys, qui rendent le layout adaptatif.
+-	d’intégrer une touche *Repeat* et une touche magique
+-	d’exploiter les possibilités offertes par les *Clever Keys*, qui rendent le layout adaptatif.
 
 &nbsp;</br>
 
 ## Détail des solutions employées
 L’utilisation des touches de pouce présente de nombreux avantages. En premier lieu, la disposition gagne une touche de repos. Le `E` était le candidat naturel vu sa fréquence d’utilisation en français comme en anglais. Son placement sous un pouce permet de mieux équilibrer la charge de tous les doigts. De plus, avoir une touche sous un pouce fait mécaniquement diminuer les SFB, les ciseaux et les mauvaises redirections.
 
-Propergol utilise la touche [Repeat](https://docs.qmk.fm/features/repeat_key) et la touche [Alt-Repeat](https://docs.qmk.fm/features/repeat_key#alternate-repeating) de QMK. La touche Repeat permet de répéter la dernière touche tapée. En la mettant sous un pouce, on transforme tous les SKB en roulements vers l’intérieur, l’enchainement le plus confortable ! 
+Propergol utilise la touche [*Repeat*](https://docs.qmk.fm/features/repeat_key) et la touche [*Alt-Repeat*](https://docs.qmk.fm/features/repeat_key#alternate-repeating) de QMK. La touche *Repeat* permet de répéter la dernière touche tapée. En la mettant sous un pouce, on transforme tous les SKB en roulements vers l’intérieur, l’enchainement le plus confortable ! 
 
-La touche Alt-Repeat produit un caractère en fonction de la lettre qui a été tapée avant. Propergol utilise Alt-Repeat comme une touche magique, pour éliminer les bigrammes les plus pénalisants de la disposition. Pour aller plus loin, cette touche peut aussi servir de raccourci pour des enchainements particulièrement fréquents (`ION`, `MENT`).
+La touche *Alt-Repeat* produit un caractère en fonction de la lettre qui a été tapée avant. Propergol l’utilise comme une touche magique, pour éliminer les bigrammes les plus pénalisants de la disposition. Pour aller plus loin, cette touche peut aussi servir de raccourci pour des enchainements particulièrement fréquents (`ION`, `MENT`).
 
-Enfin, les Clever Keys étendent le concept de touche magique à tout le layout. On peut s’en servir par exemple :
+Enfin, les [Clever Keys](https://github.com/Kawamashi/qmk_userspace/blob/main/README.md#clever-keys) étendent le concept de touche magique à tout le layout. On peut s’en servir par exemple :
 -	pour ajouter automatiquement le `U` entre `Q` et une voyelle (ou une apostrophe)
 -	pour mettre automatiquement la première lettre d’une phrase en majuscule
--	pour tout autre usage permis par la touche magique
+-	pour donner des effets “magiques” à n’importe quelle touche, pas seulement la touche *Alt-Repeat*
+-	pour paramétrer plus finement cette dernière
   
-Ces fonctionnalités permettent d’éliminer la totalité des SKB, la majeure partie des SFB (seulement 0.35 % en français et 0.4 % en anglais), des redirections fréquentes et des ciseaux.
+Ces fonctionnalités permettent d’éliminer la totalité des répétitions de caractères, la majeure partie des SFB (seulement 0.35 % en français et 0.4 % en anglais), des redirections fréquentes et des ciseaux.
 
 Cependant, il y a une contrepartie. On se débarrasse des enchainements inconfortables en utilisant des touches autres que celles qui produisent le caractère habituellement. Par exemple, `U` et `I` sont sur la même colonne. Pour que `UI` ne soit pas un SFB, il faut utiliser la touche magique pour taper `I`. Cela crée une charge cognitive. Il ne faut donc pas abuser de ces touches alternatives.  
 
@@ -75,7 +76,7 @@ Au fur et à mesure de la pratique, l’utilisation des touches alternatives dev
 &nbsp;</br>
 
 ## La touche morte de Propergol
-Propergol utilise une [touche morte de type Lafayette](https://ergol.org/presentation/#impeccable-en-fran%C3%A7ais) pour taper les caractères accentués, les diacritiques ainsi que les symboles typographiques :
+Propergol utilise une [touche morte de type Lafayette](https://ergol.org/presentation/#impeccable-en-fran%C3%A7ais) `★` pour taper les caractères accentués, les diacritiques ainsi que les symboles typographiques :
 -	`★` + voyelle → voyelle avec circonflexe
 -	`ç` est en dessous du `c`, `œ` et `æ` sont au-dessus de `o` et `a` respectivement
 -	`★` + `espace` → `_` (tiret bas)
