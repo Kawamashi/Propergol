@@ -43,16 +43,20 @@ Enfin, les Clever Keys étendent le concept de touche magique à tout le layout.
   
 Ces fonctionnalités permettent d’éliminer la totalité des SKB, la majeure partie des SFB (seulement 0.35 % en français et 0.4 % en anglais), des redirections fréquentes et des ciseaux.
 
-Cependant, il y a une contrepartie. On se débarrasse des enchainements inconfortables en utilisant des touches autres que celles qui produisent le caractère habituellement. Par exemple, `U` et `I` sont sur la même colonne. Pour que `UI` ne soit pas un SFB, il faut utiliser la touche magique pour taper `I`. Cela crée une charge cognitive. Il ne faut donc pas abuser de ces touches alternatives. Pour fonctionner correctement, Propergol a besoin de 7 règles magiques :
+Cependant, il y a une contrepartie. On se débarrasse des enchainements inconfortables en utilisant des touches autres que celles qui produisent le caractère habituellement. Par exemple, `U` et `I` sont sur la même colonne. Pour que `UI` ne soit pas un SFB, il faut utiliser la touche magique pour taper `I`. Cela crée une charge cognitive. Il ne faut donc pas abuser de ces touches alternatives.  
+
+De base, Propergol utilise 7 règles magiques :
 -	`U` + `Magic` → `UI` : transforme le SFB `UI` en bigramme vers l’intérieur
 -	`Q` + voyelle / apostrophe → insère le `U` automatiquement pour éviter le ciseau `QU` et diminue de moitié les occurrences de `UI` (dues à `QUI`).
 -	`Q` + `H` → `QUOI` : transforme presque tous les SFB `QO` en bigrammes vers l’intérieur
 -	`S` + `Magic` → `SC` : transforme le SFB `SC` en bigramme vers l’intérieur
 -	`P` + `Magic` → `PH` : transforme le SFB `PH` en bigramme vers l’intérieur 
 -	`N` + `Magic` → `N.` : transforme le SFB `N.` en bigramme vers l’intérieur
-- `Y` + `Magic` → `YI` : transforme le SFB `YI` en bigramme vers l’intérieur 
+- `Y` + `Magic` → `YI` : transforme le SFB `YI` en bigramme vers l’intérieur
 
-Pour aller plus loin, voilà des règles optionnelles qui améliorent davantage la disposition :
+Si à l’usage certaines de ces règles ne vous paraissent pas naturelles, ce n’est pas grave ! Personnellement je me passe des deux dernières sans aucun souci. Je dirais que Propergol a besoin des trois premières pour fonctionner confortablement.
+
+Si vous voulez aller plus loin, voilà des règles optionnelles qui améliorent davantage la disposition :
 -	`Q` + `Magic` → `QUÉ`
 -	`Q` + `N` → `QUAND`
 -	`I` + `Magic` → `ION`
@@ -65,7 +69,7 @@ Pour aller plus loin, voilà des règles optionnelles qui améliorent davantage 
 -	`Y` + `Magic` → `Y,`
 -	`Y` + `È` → `YOU`
 -	`C` + `J` → `CK`
-  
+
 Au fur et à mesure de la pratique, l’utilisation des touches alternatives devient de plus en plus naturelle, et la charge cognitive diminue. 
 
 &nbsp;</br>
