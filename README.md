@@ -116,7 +116,7 @@ Les enchainements de lettres ont été étudiés de manière à créer le moins 
       <th>STS</th>
       <th>FSB</th>
       <th>HSB</th>
-      <th>2UB</th>
+      <th>RJB</th>
       <th>Total</th>
       <th>Bad Redir</th>
       <th>SHS</th>
