@@ -274,7 +274,7 @@ J’aime beaucoup l’approche Lafayette, mais je voulais que les caractères le
 
 - `É` et `È` ont des touches dédiées.
 - la touche `Repeat` produit une apostrophe quand on en a besoin en français. En effet, les occurrences de répétitions de lettres et de l’apostrophe y sont mutuellement exclusives. La touche `Repeat` est donc configurée pour donner une apostrophe lorsque la répétition de la dernière lettre est improbable. En backup, l’apostrophe est au même emplacement sur la couche 1DK.
-- la touche magique de Propergol est configurée pour produire `À` par défaut. `À` n’est employé qu’après un `L` (`là`, `delà`), un `J` (`déjà`), un `Ç` (`deçà`) ou si le caractère précédent n’est pas une autre lettre. Propergol n’utilise donc pas de règle magique commençant par `L`, `J` et `Ç` afin d’avoir `À` en accès direct. En backup, `À` est au même emplacement sur la couche 1DK.
+- la touche magique de Propergol est configurée pour produire `À` par défaut. En effet, `À` n’est employé qu’après un `L` (`là`, `delà`), un `J` (`déjà`), un `Ç` (`deçà`) ou si le caractère précédent n’est pas une autre lettre. Propergol n’utilise donc pas de règle magique commençant par `L`, `J` et `Ç` afin d’avoir `À` en accès direct. En backup, `À` est au même emplacement sur la couche 1DK.
 - le `Z` passe en couche 1DK, en position de repos de l’index gauche.
 
 L’usage de la touche 1DK est donc très réduit avec Propergol, aux alentours de 0.6 %. 
