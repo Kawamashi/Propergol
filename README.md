@@ -40,9 +40,9 @@ Enfin, les [Clever Keys](https://github.com/Kawamashi/qmk_userspace/blob/main/RE
 -	pour ajouter automatiquement le `U` entre `Q` et une voyelle (ou une apostrophe)
 -	pour mettre automatiquement la première lettre d’une phrase en majuscule
 -	pour donner des effets “magiques” à n’importe quelle touche, pas seulement la touche *Alt-Repeat*
--	pour paramétrer plus finement cette dernière, en tenant compte de la série de touches tapées avant et non pas seulement de la dernière
+-	pour paramétrer plus finement celle-ci, en tenant compte de la série de touches tapées avant et non pas seulement de la dernière
   
-Ces fonctionnalités permettent d’éliminer la totalité des répétitions de caractères, la majeure partie des SFB (seulement 0.35 % en français et 0.4 % en anglais), des redirections fréquentes et des ciseaux.
+Ces fonctionnalités permettent d’éliminer la totalité des répétitions de caractères, la majeure partie des redirections fréquentes, des ciseaux et des SFB (seulement 0.35 % en français et 0.4 % en anglais).
 
 Cependant, il y a une contrepartie. On se débarrasse des enchainements inconfortables en utilisant des touches autres que celles qui produisent le caractère habituellement. Par exemple, `U` et `I` sont sur la même colonne. Pour que `UI` ne soit pas un SFB, il faut utiliser la touche magique pour taper `I`. Cela crée une charge cognitive. Il ne faut donc pas abuser de ces touches alternatives.  
 
