@@ -34,7 +34,7 @@ L’utilisation des touches de pouce présente de nombreux avantages. En premier
 
 Propergol utilise la touche [*Repeat*](https://docs.qmk.fm/features/repeat_key) et la touche [*Alt-Repeat*](https://docs.qmk.fm/features/repeat_key#alternate-repeating) de QMK. La touche *Repeat* permet de répéter la dernière touche tapée. En la mettant sous un pouce, on transforme tous les SKB en roulements vers l’intérieur, l’enchainement le plus confortable ! 
 
-La touche *Alt-Repeat* produit un caractère en fonction de la lettre qui a été tapée avant. Propergol l’utilise comme une touche magique, pour éliminer les bigrammes les plus pénalisants de la disposition. Pour aller plus loin, cette touche peut aussi servir de raccourci pour des enchainements particulièrement fréquents (`ION`, `MENT`).
+La touche *Alt-Repeat* `⚝` produit un caractère en fonction de la lettre qui a été tapée avant. Propergol l’utilise comme une touche magique, pour éliminer les bigrammes les plus pénalisants de la disposition. Pour aller plus loin, cette touche peut aussi servir de raccourci pour des enchainements particulièrement fréquents (`ION`, `MENT`).
 
 Enfin, les [Clever Keys](https://github.com/Kawamashi/qmk_userspace/blob/main/README.md#clever-keys) étendent le concept de touche magique à tout le layout. On peut s’en servir par exemple :
 -	pour ajouter automatiquement le `U` entre `Q` et une voyelle (ou une apostrophe)
@@ -47,29 +47,29 @@ Ces fonctionnalités permettent d’éliminer la totalité des répétitions de 
 Cependant, il y a une contrepartie. On se débarrasse des enchainements inconfortables en utilisant des touches autres que celles qui produisent le caractère habituellement. Par exemple, `U` et `I` sont sur la même colonne. Pour que `UI` ne soit pas un SFB, il faut utiliser la touche magique pour taper `I`. Cela crée une charge cognitive. Il ne faut donc pas abuser de ces touches alternatives.  
 
 De base, Propergol utilise 7 règles magiques :
--	`U` + `Magic` → `UI` : transforme le SFB `UI` en bigramme vers l’intérieur
--	`Q` + voyelle / apostrophe → insère le `U` automatiquement pour éviter le ciseau `QU` et diminue de moitié les occurrences de `UI` (dues à `QUI`).
--	`Q` + `H` → `QUOI` : transforme presque tous les SFB `QO` en bigrammes vers l’intérieur
--	`S` + `Magic` → `SC` : transforme le SFB `SC` en bigramme vers l’intérieur
--	`P` + `Magic` → `PH` : transforme le SFB `PH` en bigramme vers l’intérieur 
--	`N` + `Magic` → `N.` : transforme le SFB `N.` en bigramme vers l’intérieur
-- `Y` + `Magic` → `YI` : transforme le SFB `YI` en bigramme vers l’intérieur
+-	`U` `⚝` → `UI` : transforme le SFB `UI` en bigramme vers l’intérieur
+-	`Q` suivi d’une voyelle ou d’une apostrophe → insère le `U` automatiquement pour éviter le ciseau `QU` et diminue de moitié les occurrences de `UI` (dues à `QUI`).
+-	`Q` `H` → `QUOI` : transforme presque tous les SFB `QO` en bigrammes vers l’intérieur
+-	`S` `⚝` → `SC` : transforme le SFB `SC` en bigramme vers l’intérieur
+-	`P` `⚝` → `PH` : transforme le SFB `PH` en bigramme vers l’intérieur 
+-	`N` `⚝` → `N.` : transforme le SFB `N.` en bigramme vers l’intérieur
+- `Y` `⚝` → `YI` : transforme le SFB `YI` en bigramme vers l’intérieur
 
 Si à l’usage certaines de ces règles ne vous paraissent pas naturelles, ce n’est pas grave ! Personnellement je me passe des deux dernières sans aucun souci. Je dirais que Propergol a besoin des trois premières pour fonctionner confortablement.
 
 Si vous voulez aller plus loin, voilà des règles optionnelles qui améliorent davantage la disposition :
--	`Q` + `Magic` → `QUÉ`
--	`Q` + `N` → `QUAND`
--	`I` + `Magic` → `ION`
--	`M` (si précédé d’une lettre) + `Magic` → `MENT`
--	`M` + `Magic` (sinon) → `MÊME`
--	`É` + `Magic` → `ÉA`
--	`P` + `C` → `PAS`
--	`P` + `J` → `POUR`
--	`C` + `M` → `CH`
--	`Y` + `Magic` → `Y,`
--	`Y` + `È` → `YOU`
--	`C` + `J` → `CK`
+-	`Q` `⚝` → `QUÉ`
+-	`Q` `N` → `QUAND`
+-	`I` `⚝` → `ION`
+-	`M` (si précédé d’une lettre) + `⚝` → `MENT`
+-	`M` `⚝` (sinon) → `MÊME`
+-	`É` `⚝` → `ÉA`
+-	`P` `C` → `PAS`
+-	`P` `J` → `POUR`
+-	`C` `M` → `CH`
+-	`Y` `⚝` → `Y,`
+-	`Y` `È` → `YOU`
+-	`C` `J` → `CK`
 
 Au fur et à mesure de la pratique, l’utilisation des touches alternatives devient de plus en plus naturelle, et la charge cognitive diminue. 
 
@@ -77,14 +77,14 @@ Au fur et à mesure de la pratique, l’utilisation des touches alternatives dev
 
 ## La touche morte de Propergol
 Propergol utilise une [touche morte de type Lafayette](https://ergol.org/presentation/#impeccable-en-fran%C3%A7ais) `★` pour taper les caractères accentués, les diacritiques ainsi que les symboles typographiques :
--	`★` + voyelle → voyelle avec circonflexe
+-	`★` suivi d’une voyelle → voyelle avec circonflexe
 -	`ç` est en dessous du `c`, `œ` et `æ` sont au-dessus de `o` et `a` respectivement
--	`★` + `espace` → `_` (tiret bas)
+-	`★` `espace` → `_` (tiret bas)
 -	Les différents guillemets doubles sont dans le pavé 3×10
--	`★` + `-` (signe moins) → `−` (signe moins typographique)
--	`★` + trait d’union → trait d’union insécable
--	`★` + `Q` → `Q`, sans que le `U` soit inséré automatiquement après (pour écrire `Qatar` par ex)
--	`★` + `T` → `/`
+-	`★` `-` (signe moins) → `−` (signe moins typographique)
+-	`★` suivi d’un trait d’union → trait d’union insécable
+-	`★` `Q` → `Q`, sans que le `U` soit inséré automatiquement après (pour écrire `Qatar` par ex)
+-	`★` `T` → `/`
 -	etc.
   
 Propergol repousse les limites de la touche morte en l’implémentant comme une couche QMK, accessible avec un [one-shot layer](https://docs.qmk.fm/one_shot_keys). De cette manière : 
@@ -143,7 +143,7 @@ Les enchainements de lettres ont été étudiés de manière à créer le moins 
     <td>7.46 %</td>
     <td>0.24 %</td>
     <td>2.54 %</td>
-    <td>5.08 %</td>
+    <td>4.98 %</td>
    </tr>
    <tr>
     <th>Propergol + options</th>
@@ -157,35 +157,35 @@ Les enchainements de lettres ont été étudiés de manière à créer le moins 
     <td>5.56 %</td>
     <td>0.21 %</td>
     <td>2.44 %</td>
-    <td>6.47 %</td>
+    <td>6.35 %</td>
    </tr>
    <tr>
     <th>Ergo-L</th>
     <td>1.18 %</td>
-    <td>5.11 %</td>
+    <td>5.10 %</td>
     <td>0.00 %</td>
     <td>1.90 %</td>
     <td>0.21 %</td>
-    <td>4.66 %</td>
+    <td>4.70 %</td>
     <td>0.87 %</td>
-    <td>10.76 %</td>
-    <td>2.08 %</td>
+    <td>10.79 %</td>
+    <td>2.10 %</td>
     <td>7.76 %</td>
-    <td>3.60 %</td>
+    <td>3.57 %</td>
    </tr>
     <tr>
     <th>Erglace</th>
-    <td>0.90 %</td>
+    <td>0.89 %</td>
     <td>4.99 %</td>
     <td>0.00 %</td>
-    <td>1.41 %</td>
+    <td>1.31 %</td>
     <td>0.23 %</td>
-    <td>2.90 %</td>
+    <td>2.88 %</td>
     <td>1.02 %</td>
-    <td>4.21 %</td>
+    <td>4.13 %</td>
     <td>0.31 %</td>
-    <td>2.77 %</td>
-    <td>3.71 %</td>
+    <td>2.76 %</td>
+    <td>3.58 %</td>
    </tr>
    <tr>
     <td colspan ="12"> </td>
@@ -206,7 +206,7 @@ Les enchainements de lettres ont été étudiés de manière à créer le moins 
     <td>8.94 %</td>
     <td>0.97 %</td>
     <td>2.95 %</td>
-    <td>2.91 %</td>
+    <td>2.86 %</td>
    </tr>
    <tr>
     <th>Propergol + options</th>
@@ -220,7 +220,7 @@ Les enchainements de lettres ont été étudiés de manière à créer le moins 
     <td>6.71 %</td>
     <td>0.16 %</td>
     <td>2.66 %</td>
-    <td>4.01 %</td>
+    <td>3.94 %</td>
    </tr>
    <tr>
     <th>Ergo-L</th>
@@ -234,7 +234,7 @@ Les enchainements de lettres ont été étudiés de manière à créer le moins 
     <td>13.65 %</td>
     <td>2.29 %</td>
     <td>8.45 %</td>
-    <td>0.59 %</td>
+    <td>0.58 %</td>
    </tr>
    <tr>
     <th>Erglace</th>
@@ -248,7 +248,7 @@ Les enchainements de lettres ont été étudiés de manière à créer le moins 
     <td>3.35 %</td>
     <td>0.39 %</td>
     <td>0.65 %</td>
-    <td>0.98 %</td>
+    <td>0.96 %</td>
    </tr>
    <tr>
     <th>Sturdy</th>
@@ -307,6 +307,8 @@ Les enchainements de symboles les plus courants sont confortables. Par exemple :
 -	`</` : alternance
 -	`["]` : alternance
 
+Enfin, le tiret bas `_` est particulièrement accessible (`★` `espace`).
+
 
 
 Si vous préférez la couche de symboles d’Ergo-L, ce n’est pas un souci. Il vous suffit d’éditer le .toml de Propergol pour remplacer la couche Alt-gr par celle d’Ergo-L. [Kalamine](https://github.com/OneDeadKey/kalamine) vous créera votre driver personnalisé en deux temps trois mouvements !
@@ -328,7 +330,7 @@ Je ne connais pas d’autres layouts ayant `L` sur la rangée de repos. C’est 
 Je préfère la position basse de l’auriculaire (le `Z` de QWERTY) à la position haute (le `Q` de QWERTY), mais pour certaines personnes c’est l’inverse. Dans ce cas, les touches des auriculaires peuvent être inversées sans souci, en adaptant quelques règles magiques :
 -	`QÉ` (qui donne `QUÉ`) n’est plus un ciseau, la règle correspondante ne sert plus à rien
 -	`Q` + `P` → `QUOI` (au lieu de `Q` + `H`)
--	La règle `M` + `Magic` → `MÊME` n’est plus nécessaire, même si l’utilisateur peut la conserver
+-	La règle `M` + `⚝` → `MÊME` n’est plus nécessaire, même si l’utilisateur peut la conserver
   
 De même, l’inversion du tiret et du B est tout à fait envisageable, même si cela implique de ne plus avoir les parenthèses de la couche 1DK symétriques (celles de la couche symboles ne sont pas modifiées). Dans ce cas, il faudra retoucher légèrement la couche 1DK pour éviter les ciseaux sur la main droite.
 
