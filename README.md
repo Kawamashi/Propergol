@@ -327,6 +327,8 @@ Je ne connais pas d’autres layouts ayant `L` sur la rangée de repos. C’est 
 &nbsp;</br>
 
 ## Variantes
+
+### Inversion des touches de coin
 Je préfère la position basse de l’auriculaire (le `Z` de QWERTY) à la position haute (le `Q` de QWERTY), mais pour certaines personnes c’est l’inverse. Dans ce cas, les touches des auriculaires peuvent être inversées sans souci, en adaptant quelques règles magiques :
 -	`QÉ` (qui donne `QUÉ`) n’est plus un ciseau, la règle correspondante ne sert plus à rien
 -	`Q` + `P` → `QUOI` (au lieu de `Q` + `H`)
@@ -334,11 +336,13 @@ Je préfère la position basse de l’auriculaire (le `Z` de QWERTY) à la posit
   
 De même, l’inversion du tiret et du B est tout à fait envisageable, même si cela implique de ne plus avoir les parenthèses de la couche 1DK symétriques (celles de la couche symboles ne sont pas modifiées). Dans ce cas, il faudra retoucher légèrement la couche 1DK pour éviter les ciseaux sur la main droite.
 
-Est-ce que Propergol peut fonctionner avec moins de 30 touches sur le pavé principal ? 
+&nbsp;</br>
 
-Je n’aime pas les touches d’index basses sur les colonnes intérieures. Je ne les utilise pas sur mes claviers. Propergol fonctionne bien sans ces touches, il suffit de mettre B et K sur la couche 1DK et de remanier celle-ci en fonction. Voilà à quoi ressemble ma configuration :
+### Est-ce que Propergol peut fonctionner avec moins de 30 touches sur le pavé principal ? 
 
+Je n’aime pas les touches d’index basses sur les colonnes intérieures. Je ne les utilise pas sur mes claviers. Propergol fonctionne bien sans ces touches, il suffit de mettre B et K sur la couche 1DK et de remanier celle-ci en fonction. Voilà à quoi ressemble ma configuration, *a.k.a.* **Propergol face B** :
 
+![layout](https://github.com/Kawamashi/Propergol/blob/main/Propergol_B.png)
 
 J’ai essayé de faire rentrer Propergol sur les claviers type Hummingbird, avec seulement deux touches sous les auriculaires. Je n’ai pas trouvé de solution satisfaisante, je bloque notamment sur la virgule. N’hésitez pas à me contacter si vous avez des idées !
 
