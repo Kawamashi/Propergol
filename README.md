@@ -333,8 +333,10 @@ Je préfère la position basse de l’auriculaire (le `Z` de QWERTY) à la posit
 -	`QÉ` (qui donne `QUÉ`) n’est plus un ciseau, la règle correspondante ne sert plus à rien
 -	`Q` + `P` → `QUOI` (au lieu de `Q` + `H`)
 -	La règle `M` + `⚝` → `MÊME` n’est plus nécessaire, même si l’utilisateur peut la conserver
+
+Si `★` passe en position haute, il faudra retoucher légèrement la couche 1DK pour éviter les ciseaux sur la main droite.
   
-De même, l’inversion du tiret et du B est tout à fait envisageable, même si cela implique de ne plus avoir les parenthèses de la couche 1DK symétriques (celles de la couche symboles ne sont pas modifiées). Dans ce cas, il faudra retoucher légèrement la couche 1DK pour éviter les ciseaux sur la main droite.
+De même, l’inversion du tiret et du B est tout à fait envisageable, même si cela implique de ne plus avoir les parenthèses de la couche 1DK symétriques (celles de la couche symboles ne sont pas modifiées). 
 
 &nbsp;</br>
 
