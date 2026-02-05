@@ -40,7 +40,7 @@ Enfin, les [Clever Keys](https://github.com/Kawamashi/qmk_userspace/blob/main/RE
 -	pour ajouter automatiquement le `U` entre `Q` et une voyelle (ou une apostrophe)
 -	pour mettre automatiquement la première lettre d’une phrase en majuscule
 -	pour donner des effets “magiques” à n’importe quelle touche, pas seulement la touche *Alt-Repeat*
--	pour paramétrer plus finement cette dernière
+-	pour paramétrer plus finement cette dernière, en tenant compte de la série de touches tapées avant et non pas seulement de la dernière
   
 Ces fonctionnalités permettent d’éliminer la totalité des répétitions de caractères, la majeure partie des SFB (seulement 0.35 % en français et 0.4 % en anglais), des redirections fréquentes et des ciseaux.
 
@@ -337,6 +337,8 @@ De même, l’inversion du tiret et du B est tout à fait envisageable, même si
 Est-ce que Propergol peut fonctionner avec moins de 30 touches sur le pavé principal ? 
 
 Je n’aime pas les touches d’index basses sur les colonnes intérieures. Je ne les utilise pas sur mes claviers. Propergol fonctionne bien sans ces touches, il suffit de mettre B et K sur la couche 1DK et de remanier celle-ci en fonction. Voilà à quoi ressemble ma configuration :
+
+
 
 J’ai essayé de faire rentrer Propergol sur les claviers type Hummingbird, avec seulement deux touches sous les auriculaires. Je n’ai pas trouvé de solution satisfaisante, je bloque notamment sur la virgule. N’hésitez pas à me contacter si vous avez des idées !
 
