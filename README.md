@@ -79,7 +79,6 @@ Au fur et à mesure de la pratique, l’utilisation des touches alternatives dev
 Propergol utilise une [touche morte de type Lafayette](https://ergol.org/presentation/#impeccable-en-fran%C3%A7ais) `★` pour taper les caractères accentués, les diacritiques ainsi que les symboles typographiques :
 -	`★` suivi d’une voyelle → voyelle avec circonflexe
 -	`ç` est en dessous du `c` (on a aussi `ï` en dessous du `i`, `œ` et `æ` au-dessus de `o` et `a` respectivement)
--	ç, à proximité immédiate de la lettre 
 -	`★` `espace` → `_` (tiret bas)
 -	Les différents guillemets doubles sont dans le pavé 3×10
 -	`★` `-` (signe moins) → `−` (signe moins typographique)
