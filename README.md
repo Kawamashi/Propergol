@@ -316,17 +316,24 @@ Si vous préférez la couche de symboles d’Ergo-L, ce n’est pas un souci. Il
 &nbsp;</br>
 
 ## Quelques choix de conception
+En anglais, même si le `E` est la lettre la plus employée, les dispositions récentes plaçant une lettre sous le pouce ont fait le choix du `R`, car c’est une lettre qui crée des SFB avec la plupart des autres caractères. En français, l’écart d’utilisation entre le `E` et les autres lettres est encore plus marqué, avec le même problème d’interactions avec les autres lettres. C’est pourquoi j’ai naturellement mis `E` sous un pouce.
+
 Pour minimiser les redirections, toutes les voyelles sont placées du même côté. Pour garder une heatmap et une charge des doigts équilibrée d’une part, et ne pas faire exploser les SFB d’autre part, il faut mettre une consonne sous l’index côté voyelles. Le choix s’est rapidement porté sur le `N`. En effet, avoir le `N` côté voyelles permet d’avoir tous les “sons voyelles”, y compris `ON`, `AN`, `IN`, `UN` et `EN`, sur la même moitié de clavier. De plus, `N` est une lettre “directive” : il y a quatre fois plus de bigrammes où `N` suit une voyelle que de bigrammes où une voyelle suit un `N`. Avec `N` sous l’index, la disposition a naturellement tendance à rouler vers l’intérieur.
 
 Toujours pour favoriser les roulements vers l’intérieur tout en équilibrant la charge des doigts, le `I` et le `U` doivent être placés sous le majeur. Cela pose moins problème que ce qu’on pourrait penser. En effet, `IU` est un bigramme extrêmement rare. On peut donc l’ignorer et se concentrer sur `UI`. Quand on analyse le corpus, la moitié des occurrences de `UI` vient de `QUI`. Avec l’insertion automatique du `U` entre `Q` et `I`, le nombre d’occurrences de `UI` est donc divisé par deux. En définitive, ce SFB se gère facilement avec la touche magique, sans provoquer de charge cognitive excessive.
 
 Grâce à ces deux choix de conception, toutes les voyelles sont sur la même moitié du clavier, et tous les sons voyelles (`OI`, `AI`, `AU`, `AI`, `ON`, `AN`, `IN`, etc) se font en roulements vers l’intérieur. Je trouve ça logique et super confortable !
 
+Pour l’index côté consonnes, le `T` s’est imposé facilement. En effet, un grand nombre de consonnes a peu d’interactions avec cette lettre, ce qui permet d’utiliser les six emplacements de l’index sans créer de nombreux SFB. À l’inverse, le `R` interagit avec la plupart des lettres. Il est donc préférable de l’associer avec des lettres peu employées pour maîtriser les SFB, d’où son placement sur l’annulaire. Entre les deux, le `S` trouve naturellement sa place.
+
 Je ne connais pas d’autres layouts ayant `L` sur la rangée de repos. C’est pourtant un choix logique, étant donné que `L` est la 10e lettre la plus employée en français, et la 11e en anglais. Cela dit, `L` est l’une des lettres les plus fréquemment doublées dans les deux langues, ce qui n’est pas confortable quand il faut le faire avec l’auriculaire. La touche `Repeat` répond à cette problématique.
 
 &nbsp;</br>
 
 ## Variantes
+
+### Utilisation du pouce gauche pour taper `Espace`
+Si vous tapez `Espace` avec le pouce gauche, pas de problème ! Pour ne pas faire exploser les redirections, `E` doit rester côté voyelles. C’est pourquoi il faut totalement inverser la disposition dans ce cas. 
 
 ### Inversion des touches de coin
 Je préfère la position basse de l’auriculaire (le `Z` de QWERTY) à la position haute (le `Q` de QWERTY), mais pour certaines personnes c’est l’inverse. Dans ce cas, les touches des auriculaires peuvent être inversées sans souci, en adaptant quelques règles magiques :
