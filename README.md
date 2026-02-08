@@ -44,7 +44,7 @@ Enfin, les [Clever Keys](https://github.com/Kawamashi/qmk_userspace/blob/main/RE
   
 Ces fonctionnalités permettent d’éliminer la totalité des répétitions de caractères, la majeure partie des redirections fréquentes, des ciseaux et des SFB (seulement 0.35 % en français et 0.4 % en anglais).
 
-Cependant, il y a une contrepartie. On se débarrasse des enchainements inconfortables en utilisant des touches autres que celles qui produisent le caractère habituellement. Par exemple, `U` et `I` sont sur la même colonne. Pour que `UI` ne soit pas un SFB, il faut utiliser la touche magique pour taper `I`. Cela crée une charge cognitive. Il ne faut donc pas abuser de ces touches alternatives.  
+Cependant, cette approche implique une contrepartie. On se débarrasse des enchainements inconfortables en utilisant des touches autres que celles qui produisent le caractère habituellement. Par exemple, `U` et `I` sont sur la même colonne. Pour que `UI` ne soit pas un SFB, il faut utiliser la touche magique pour taper `I`. Cela crée une charge cognitive. Il ne faut donc pas abuser de ces touches alternatives.  
 
 De base, Propergol utilise 7 règles magiques :
 -	`U` `⚝` → `UI` : transforme le SFB `UI` en bigramme vers l’intérieur
@@ -67,7 +67,6 @@ Si vous voulez aller plus loin, voilà des règles optionnelles qui améliorent 
 -	`P` `C` → `PAS`
 -	`P` `J` → `POUR`
 -	`C` `M` → `CH`
--	`Y` `⚝` → `Y,`
 -	`Y` `È` → `YOU`
 -	`C` `J` → `CK`
 
@@ -93,7 +92,7 @@ Propergol repousse les limites de la touche morte en l’implémentant comme une
 -	les caractères de la couche morte peuvent être enchaînés par un appui prolongé sur la touche 1DK
 -	la touche Repeat est capable de répéter un caractère de la couche 1DK
 -	on peut rendre la couche 1DK compatible avec d’autres fonctionnalités de QMK, comme [Caps Word](https://docs.qmk.fm/features/caps_word), les Clever Keys, etc.
--	si l’utilisateur le souhaite, `shift` + `1DK` peut s’appliquer au caractère suivant la touche morte. Par exemple, pour taper `Ô`, on peut faire `shift` + `1DK` + `O`.
+-	si l’utilisateur le souhaite, `Shift` peut s’appliquer au caractère suivant la touche morte. Par exemple, pour taper `Ô`, on peut faire `Shift` `★` `O`.
 
 &nbsp;</br>
 
