@@ -355,3 +355,11 @@ Je n’aime pas les touches d’index basses sur les colonnes intérieures. Je n
 
 J’ai essayé de faire rentrer Propergol sur les claviers type Hummingbird, avec seulement deux touches sous les auriculaires. Je n’ai pas trouvé de solution satisfaisante, je bloque notamment sur la virgule. N’hésitez pas à me contacter si vous avez des idées !
 
+
+## Conclusion
+
+Cela fait sept ans que j’utilise un layout avec `E` sous le pouce, je ne reviendrai pas en arrière. Propergol est mon 3e layout utilisant ce principe. J’en suis très satisfait, il correspond parfaitement à ce que je cherche dans une disposition ergonomique. 
+
+Je voulais remercier la communauté des Ergonautes, pour m’avoir inspiré les premières idées et concepts à l’origine de Propergol. Un grand merci également au discord AKL, notamment pour ses ressources théoriques.
+
+J’espère avoir donné envie à certains utilisateurs francophones de sauter le pas. Un layout adaptatif avec `E` sous le pouce, ça vaut vraiment le coup !
