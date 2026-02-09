@@ -20,7 +20,7 @@ Je voulais également avoir les caractères les plus utilisés en français **en
 ## Contexte
 Les dispositions alternatives équilibrent bien mieux la charge des doigts que l’AZERTY ou le QWERTY. Malgré ça, elles n’évitent pas la surcharge d’un doigt, comme l’index gauche en Bépo, le majeur de la même main en [Ergo-L](https://ergol.org/) ou l’annulaire droit dans la plupart des layouts alternatifs modernes anglophones ([Gallium](https://github.com/GalileoBlues/Gallium), [Graphite](https://github.com/rdavison/graphite-layout), [Sturdy](https://oxey.dev/sturdy/index.html), etc).  Cette surcharge est inévitable, elle est principalement due au placement du `E`, lettre la plus utilisée en français et en anglais. 
 
-De même, ces dispositions améliorent beaucoup le confort de frappe, en diminuant drastiquement la quantité de bigrammes à un doigt (SFB), de ciseaux, d’extensions latérales (LSB) et de mauvaises redirections en comparaison avec les dispositions historiques. Cependant, arrivé à un certain degré d’optimisation, il devient impossible de descendre en dessous d’un certain plancher de difficultés sans déséquilibrer le layout. De plus, ces dispositions ne peuvent pas éviter les répétitions de même touche (SKB). 
+De même, ces dispositions améliorent beaucoup le confort de frappe, en diminuant drastiquement la quantité de bigrammes à un doigt (SFB), de ciseaux, d’extensions latérales (LSB) et de mauvaises redirections en comparaison avec les dispositions historiques. Cependant, arrivé à un certain degré d’optimisation, il devient impossible de réduire davantage les difficultés sans déséquilibrer le layout. De plus, ces dispositions ne peuvent pas éviter les répétitions de même touche (SKB). 
 
 La seule solution pour optimiser davantage le layout est de changer l’un des postulats de base, à savoir la compatibilité avec un clavier standard. À ce titre, Propergol propose : 
 -	d’utiliser quatre touches de pouce au lieu de la seule barre d’espace
@@ -55,7 +55,7 @@ De base, Propergol utilise 7 règles magiques :
 -	`N` `⚝` → `N.` : transforme le SFB `N.` en bigramme vers l’intérieur
 - `Y` `⚝` → `YI` : transforme le SFB `YI` en bigramme vers l’intérieur
 
-Si à l’usage certaines de ces règles ne vous paraissent pas naturelles, ce n’est pas grave ! Personnellement je me passe des deux dernières sans aucun souci. Je dirais que Propergol a besoin des trois premières pour fonctionner confortablement.
+Si à l’usage certaines de ces règles ne vous paraissent pas naturelles, ce n’est pas grave ! Personnellement je me passe des deux dernières sans aucun souci. Je dirais que Propergol a besoin des trois premières pour fonctionner de manière satisfaisante.
 
 Si vous voulez aller plus loin, voilà des règles optionnelles qui améliorent davantage la disposition :
 -	`Q` `⚝` → `QUÉ`
@@ -315,11 +315,11 @@ Si vous préférez la couche de symboles d’Ergo-L, ce n’est pas un souci. Il
 &nbsp;</br>
 
 ## Quelques choix de conception
-En anglais, même si le `E` est la lettre la plus employée, les dispositions récentes plaçant une lettre sous le pouce ont fait le choix du `R`, car c’est une lettre qui crée des SFB avec la plupart des autres caractères. En français, l’écart d’utilisation entre le `E` et les autres lettres est encore plus marqué, avec le même problème d’interactions avec les autres lettres. C’est pourquoi j’ai naturellement mis `E` sous un pouce.
+En anglais, même si le `E` est la lettre la plus employée, les dispositions récentes plaçant une lettre sous le pouce ont fait le choix du `R`, car c’est une lettre qui crée des SFB avec la plupart des autres caractères. En français, le `E` présente le même problème d’interation avec les autres lettres, et sa fréquence d’utilisation (encore plus importante qu’en anglais) est telle qu’il aurait été absurde de mettre une autre lettre que le `E` sous un pouce.
 
 Pour minimiser les redirections, toutes les voyelles sont placées du même côté. Pour garder une heatmap et une charge des doigts équilibrée d’une part, et ne pas faire exploser les SFB d’autre part, il faut mettre une consonne sous l’index côté voyelles. Le choix s’est rapidement porté sur le `N`. En effet, avoir le `N` côté voyelles permet d’avoir tous les “sons voyelles”, y compris `ON`, `AN`, `IN`, `UN` et `EN`, sur la même moitié de clavier. De plus, `N` est une lettre “directive” : il y a quatre fois plus de bigrammes où `N` suit une voyelle que de bigrammes où une voyelle suit un `N`. Avec `N` sous l’index, la disposition a naturellement tendance à rouler vers l’intérieur.
 
-Toujours pour favoriser les roulements vers l’intérieur tout en équilibrant la charge des doigts, le `I` et le `U` doivent être placés sous le majeur. Cela pose moins problème que ce qu’on pourrait penser. En effet, `IU` est un bigramme extrêmement rare. On peut donc l’ignorer et se concentrer sur `UI`. Quand on analyse le corpus, la moitié des occurrences de `UI` vient de `QUI`. Avec l’insertion automatique du `U` entre `Q` et `I`, le nombre d’occurrences de `UI` est donc divisé par deux. En définitive, ce SFB se gère facilement avec la touche magique, sans provoquer de charge cognitive excessive.
+Toujours pour favoriser les roulements vers l’intérieur tout en équilibrant la charge des doigts, le `I` et le `U` doivent être placés sous le majeur. Cela pose moins problème que ce qu’on pourrait penser. En effet, `IU` est un bigramme extrêmement rare. On peut donc l’ignorer et se concentrer sur `UI`. Quand on analyse le corpus, la moitié des occurrences de `UI` vient de `QUI`. On les élimine avec l’insertion automatique du `U` entre `Q` et une voyelle. Cela réduit aussi d’environ 20 % la fréquence du `U`, ce qui rend d’autant plus logique le choix de placer cette touche hors de la ligne de repos. En définitive, les occurences restantes de `UI` se gèrent facilement avec la touche magique, sans provoquer de charge cognitive excessive.
 
 Grâce à ces deux choix de conception, toutes les voyelles sont sur la même moitié du clavier, et tous les sons voyelles (`OI`, `AI`, `AU`, `AI`, `ON`, `AN`, `IN`, etc) se font en roulements vers l’intérieur. Je trouve ça logique et super confortable !
 
