@@ -32,14 +32,15 @@ La seule solution pour optimiser davantage le layout est de changer l’un des p
 ## Détail des solutions employées
 L’utilisation des touches de pouce présente de nombreux avantages. En premier lieu, la disposition gagne une touche de repos. Le `E` était le candidat naturel vu sa fréquence d’utilisation en français comme en anglais. Son placement sous un pouce permet de mieux équilibrer la charge de tous les doigts. De plus, avoir une touche sous un pouce fait mécaniquement diminuer les SFB, les ciseaux et les mauvaises redirections.
 
-Propergol utilise la touche [*Repeat*](https://docs.qmk.fm/features/repeat_key) et la touche [*Alt-Repeat*](https://docs.qmk.fm/features/repeat_key#alternate-repeating) de QMK. La touche *Repeat* permet de répéter la dernière touche tapée. En la mettant sous un pouce, on transforme tous les SKB en roulements vers l’intérieur, l’enchainement le plus confortable ! 
+Propergol utilise la touche [*Repeat*](https://docs.qmk.fm/features/repeat_key) et la touche [*Alt-Repeat*](https://docs.qmk.fm/features/repeat_key#alternate-repeating) de QMK. `Repeat` permet de répéter la dernière touche tapée. En la mettant sous un pouce, on transforme tous les SKB en roulements vers l’intérieur, l’enchainement le plus confortable ! 
 
-La touche *Alt-Repeat* `⚝` produit un caractère en fonction de la lettre qui a été tapée avant. Propergol l’utilise comme une touche magique, pour éliminer les bigrammes les plus pénalisants de la disposition. Pour aller plus loin, cette touche peut aussi servir de raccourci pour des enchainements particulièrement fréquents (`ION`, `MENT`).
+La touche *Alt-Repeat* `⚝` produit un caractère en fonction de la lettre qui a été tapée avant. Propergol l’utilise comme une touche magique, pour éliminer les bigrammes les plus pénalisants de la disposition. Pour aller plus loin, `Alt-Repeat` peut aussi servir de raccourci pour des enchainements particulièrement fréquents (`ION`, `MENT`).
 
 Enfin, les [Clever Keys](https://github.com/Kawamashi/qmk_userspace/blob/main/README.md#clever-keys) étendent le concept de touche magique à tout le layout. On peut s’en servir par exemple :
 -	pour ajouter automatiquement le `U` entre `Q` et une voyelle (ou une apostrophe)
 -	pour mettre automatiquement la première lettre d’une phrase en majuscule
--	pour donner des effets “magiques” à n’importe quelle touche, pas seulement la touche *Alt-Repeat*
+-	pour changer le comportement de la touche *Repeat* dans certaines circonstances. En français, `Repeat` me sert aussi de touche apostrophe.
+-	pour donner des effets “magiques” à n’importe quelle touche, pas seulement `Alt-Repeat`
 -	pour paramétrer plus finement celle-ci, en tenant compte de la série de touches tapées avant et non pas seulement de la dernière
   
 Ces fonctionnalités permettent d’éliminer la totalité des répétitions de caractères, la majeure partie des redirections fréquentes, des ciseaux et des SFB (seulement 0.35 % en français et 0.4 % en anglais).
@@ -90,7 +91,7 @@ Propergol repousse les limites de la touche morte en l’implémentant comme une
 -	l’utilisateur peut personnaliser la couche 1DK sans avoir besoin de retoucher le driver 
 -	la touche morte peut être annulée par un autre appui sur celle-ci
 -	les caractères de la couche morte peuvent être enchaînés par un appui prolongé sur la touche 1DK
--	la touche Repeat est capable de répéter un caractère de la couche 1DK
+-	`Repeat` est capable de répéter un caractère de la couche 1DK
 -	on peut rendre la couche 1DK compatible avec d’autres fonctionnalités de QMK, comme [Caps Word](https://docs.qmk.fm/features/caps_word), les Clever Keys, etc.
 -	si l’utilisateur le souhaite, `Shift` peut s’appliquer au caractère suivant la touche morte. Par exemple, pour taper `Ô`, on peut faire `Shift` `★` `O`.
 
@@ -99,7 +100,7 @@ Propergol repousse les limites de la touche morte en l’implémentant comme une
 ## Pour le français et l’anglais
 Propergol a été conçu pour que la frappe soit la plus confortable possible, dans les deux langues. Pour permettre cela, le `H` (9e lettre la plus fréquente en anglais) et le `U` (8e lettre la plus fréquente en français) n’ont pas été placées sur la rangée de repos, mais sur des touches néanmoins très accessibles. Grâce à ce compromis, la heatmap et la charge des doigts sont équilibrées dans les deux langues. 
 
-Les enchainements de lettres ont été étudiés de manière à créer le moins de difficultés possibles (bigrammes à un doigt, ciseaux, extensions latérales et mauvaises redirections). Grâce à l’usage des touches de pouce, des touches Repeat et Magic ainsi que des Clever Keys, Propergol contient ces difficultés à un niveau plancher :
+Les enchainements de lettres ont été étudiés de manière à créer le moins de difficultés possibles (bigrammes à un doigt, ciseaux, extensions latérales et mauvaises redirections). Grâce à l’usage des touches de pouce, des touches *Repeat* et *Magic* ainsi que des Clever Keys, Propergol contient ces difficultés à un niveau plancher :
 
 &nbsp;</br>
 
@@ -273,7 +274,7 @@ Pour la typographie, tous les caractères d’Ergo‑L sont présents sur Proper
 J’aime beaucoup l’approche Lafayette, mais je voulais que les caractères les plus fréquents en français soient en accès direct, notamment `É`, `È`, `À` et l’apostrophe. Pour cela :
 
 - `É` et `È` ont des touches dédiées.
-- la touche `Repeat` produit une apostrophe quand on en a besoin en français. En effet, les occurrences de répétitions de lettres et de l’apostrophe y sont mutuellement exclusives. La touche `Repeat` est donc configurée pour donner une apostrophe lorsque la répétition de la dernière lettre est improbable. En backup, l’apostrophe est au même emplacement sur la couche 1DK.
+- la touche `Repeat` produit une apostrophe quand on en a besoin en français. En effet, les occurrences de répétitions de lettres et de l’apostrophe y sont mutuellement exclusives. `Repeat` est donc configurée pour donner une apostrophe lorsque la répétition de la dernière lettre est improbable. En backup, l’apostrophe est au même emplacement sur la couche 1DK.
 - la touche magique de Propergol est configurée pour produire `À` par défaut. En effet, `À` n’est employé qu’après un `L` (`là`, `delà`), un `J` (`déjà`), un `Ç` (`deçà`) ou si le caractère précédent n’est pas une autre lettre. Propergol n’utilise donc pas de règle magique commençant par `L`, `J` et `Ç` afin d’avoir `À` en accès direct. En backup, `À` est au même emplacement sur la couche 1DK.
 - le `Z` passe en couche 1DK, en position de repos de l’index gauche.
 
