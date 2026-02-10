@@ -1,7 +1,7 @@
 # Propergol, l’ergonomie sans compromis
  A SturdE-style keyboard layout for French-speaking typists and programmers.
 
-![layout](https://github.com/Kawamashi/Propergol/blob/main/Propergol2.png)
+![layout](Propergol2.png)
 
 Propergol est une disposition de clavier pour le français et l’anglais dont le but est d’être la plus ergonomique possible. Pour ça, elle tire parti de toutes les possibilités offertes par les claviers ergo programmables, que ce soit au niveau de leur géométrie (avec leurs quatre touches de pouce au minimum) ou des possibilités offertes par leur firmware programmable. 
 
@@ -284,7 +284,7 @@ L’usage de la touche 1DK est donc très réduit avec Propergol, aux alentours 
 
 ## Propergol pour la programmation
 
-![symbols](https://github.com/Kawamashi/Propergol/blob/main/Propergol_symboles.png)
+![symbols](Propergol_symboles.png)
 
 Propergol utilise une couche de programmation inspirée de celle d’Ergo-L, accessible également avec `Alt-gr`. Cette dernière est très bien pensée, mais certaines choses me gênent un peu. Propergol propose une alternative, avec :
 -	les délimiteurs `()` `[]` `{}` en bloc sur la main gauche
@@ -353,7 +353,7 @@ De même, l’inversion du tiret et du B est tout à fait envisageable, même si
 
 Je n’aime pas les touches d’index basses sur les colonnes intérieures. Je ne les utilise pas sur mes claviers. Propergol fonctionne bien sans ces touches, il suffit de mettre B et K sur la couche 1DK et de remanier celle-ci en fonction. Voilà à quoi ressemble ma configuration, *a.k.a.* **Propergol face B** :
 
-![layout](https://github.com/Kawamashi/Propergol/blob/main/Propergol_B.png)
+![layout](Propergol_B.png)
 
 J’ai essayé de faire rentrer Propergol sur les claviers type Hummingbird, avec seulement deux touches sous les auriculaires. Je n’ai pas trouvé de solution satisfaisante, je bloque notamment sur la virgule. N’hésitez pas à me contacter si vous avez des idées !
 
