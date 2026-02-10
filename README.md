@@ -335,6 +335,8 @@ Je ne connais pas d’autres layouts ayant `L` sur la rangée de repos. C’est 
 ### Utilisation du pouce gauche pour taper `Espace`
 Si vous tapez `Espace` avec le pouce gauche, pas de problème ! Pour ne pas faire exploser les redirections, `E` doit rester côté voyelles. C’est pourquoi il faut totalement inverser la disposition dans ce cas. 
 
+&nbsp;</br>
+
 ### Inversion des touches de coin
 Je préfère la position basse de l’auriculaire (le `Z` de QWERTY) à la position haute (le `Q` de QWERTY), mais pour certaines personnes c’est l’inverse. Dans ce cas, les touches des auriculaires peuvent être inversées sans souci, en adaptant quelques règles magiques :
 -	`QÉ` (qui donne `QUÉ`) n’est plus un ciseau, la règle correspondante ne sert plus à rien
