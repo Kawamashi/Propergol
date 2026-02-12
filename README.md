@@ -3,7 +3,7 @@
 
 ![layout](Propergol2.png)
 
-Propergol est une disposition de clavier pour le français et l’anglais dont le but est d’être la plus ergonomique possible. Pour ça, elle tire parti de toutes les possibilités offertes par les claviers ergo programmables, que ce soit au niveau de leur géométrie (avec leurs quatre touches de pouce au minimum) ou des possibilités offertes par leur firmware programmable. 
+Propergol est une disposition de clavier pour le français et l’anglais dont le but est d’être la plus ergonomique possible. Pour ça, elle tire parti de toutes les possibilités offertes par les claviers ergo programmables, que ce soit au niveau de leur géométrie (avec leurs quatre touches de pouce au minimum) ou des fonctionnalités offertes par leur firmware. Propergol nécessite un driver spécifique côté OS et un clavier utilisant [QMK](https://qmk.fm/).
 
 Je voulais que Propergol soit extrêmement confortable, avec une heatmap et une charge des doigts très équilibrée et particulièrement peu de difficultés (bigrammes à un doigt, ciseaux, extensions latérales et mauvaises redirections). La disposition privilégie les roulements pour une expérience de frappe fluide, et plus particulièrement les roulements vers l’intérieur, les plus confortables. Elle minimise les redirections et les longues séquences tapées avec une seule main, qui fatiguent inutilement l’une des deux mains. Par conséquent, la frappe rebondit naturellement entre les deux mains. Elle reste “régulière” et rythmée.
 
@@ -49,7 +49,7 @@ Cependant, cette approche implique une contrepartie. On se débarrasse des encha
 
 De base, Propergol utilise 7 règles magiques :
 -	`U` `⚝` → `UI` : transforme le SFB `UI` en bigramme vers l’intérieur
--	`Q` suivi d’une voyelle ou d’une apostrophe → insère le `U` automatiquement pour éviter le ciseau `QU` et diminue de moitié les occurrences de `UI` (dues à `QUI`).
+-	`Q` suivi d’une voyelle ou d’une apostrophe → insère le `U` automatiquement pour éviter le ciseau `QU` et diminue de moitié les occurrences de `UI` (dues à `QUI`)
 -	`Q` `H` → `QUOI` : transforme presque tous les SFB `QO` en bigrammes vers l’intérieur
 -	`S` `⚝` → `SC` : transforme le SFB `SC` en bigramme vers l’intérieur
 -	`P` `⚝` → `PH` : transforme le SFB `PH` en bigramme vers l’intérieur 
@@ -324,7 +324,7 @@ Toujours pour favoriser les roulements vers l’intérieur tout en équilibrant 
 
 Grâce à ces deux choix de conception, toutes les voyelles sont sur la même moitié du clavier, et tous les sons voyelles (`OI`, `AI`, `AU`, `AI`, `ON`, `AN`, `IN`, etc) se font en roulements vers l’intérieur. Je trouve ça logique et super confortable !
 
-Pour l’index côté consonnes, le `T` s’est imposé facilement. En effet, un grand nombre de consonnes a peu d’interactions avec cette lettre, ce qui permet d’utiliser les six emplacements de l’index sans créer de nombreux SFB. À l’inverse, le `R` interagit avec la plupart des lettres. Il est donc préférable de l’associer avec des lettres peu employées pour maîtriser les SFB, d’où son placement sur l’annulaire. Entre les deux, le `S` trouve naturellement sa place.
+Pour l’index côté consonnes, le `T` s’est imposé facilement. En effet, peu de consonnes interagissent avec cette lettre, ce qui permet d’utiliser les six emplacements de l’index sans créer beaucoup de SFB. À l’inverse, le `R` interagit avec la plupart des lettres. Il est donc préférable de l’associer avec des lettres peu employées pour maîtriser les SFB, d’où son placement sur l’annulaire. Entre les deux, le `S` trouve naturellement sa place.
 
 Je ne connais pas d’autres layouts ayant `L` sur la rangée de repos. C’est pourtant un choix logique, étant donné que `L` est la 10e lettre la plus employée en français, et la 11e en anglais. Cela dit, `L` est l’une des lettres les plus fréquemment doublées dans les deux langues, ce qui n’est pas confortable quand il faut le faire avec l’auriculaire. La touche `Repeat` répond à cette problématique.
 
@@ -362,6 +362,6 @@ J’ai essayé de faire rentrer Propergol sur les claviers type Hummingbird, ave
 
 Cela fait sept ans que j’utilise un layout avec `E` sous le pouce, je ne reviendrai pas en arrière. Propergol est mon 3e layout utilisant ce principe. J’en suis très satisfait, il correspond parfaitement à ce que je cherche dans une disposition ergonomique. 
 
-Je voulais remercier la communauté des Ergonautes, pour m’avoir inspiré les premières idées et concepts à l’origine de Propergol. Un grand merci également au discord AKL, notamment pour ses ressources théoriques.
+Je voulais remercier la communauté des Ergonautes, pour m’avoir inspiré les concepts et les premières idées à l’origine de Propergol. Merci également à Ikcelaks pour le [Magic Sturdy](https://github.com/Ikcelaks/keyboard_layouts/blob/main/magic_sturdy/magic_sturdy.md), premier layout “magique” dont j’ai entendu parler, et à Lenchog pour le [Whirl](https://github.com/Lenchog/Whirl), qui partage la même philosophie que Propergol. Enfin, un grand merci au discord AKL, notamment pour ses ressources théoriques, à [Oxey](https://oxey.dev/playground/index.html) et [Cyanophage](https://cyanophage.github.io/playground.html?layout=qwertyuiop-asdfghjkl%3B%27zxcvbnm%2C.%2F%5C%5E&mode=ergo&lan=english&thumb=l), pour leurs analyseurs live qui m’ont fait gagner tellement de temps quand je travaillais sur Propergol.
 
-J’espère avoir donné envie à certains utilisateurs francophones de sauter le pas. Un layout adaptatif avec `E` sous le pouce, ça vaut vraiment le coup !
+J’espère avoir donné envie à certains utilisateurs francophones de sauter le pas. Un layout adaptatif avec `E` sous le pouce, ça vaut vraiment le coup ! Si Propergol vous intéresse, contactez-moi pour que je vous aide à élaborer votre firmware. Je suis en train d’étudier les différentes possibilités pour générer automatiquement une keymap QMK adaptée à Propergol, que vous pourrez ensuite personnaliser suivant vos besoins et préférences. Je ne serais pas contre un coup de main pour cette partie…
