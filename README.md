@@ -37,11 +37,11 @@ Propergol utilise la touche [*Repeat*](https://docs.qmk.fm/features/repeat_key) 
 La touche *Alt-Repeat* `⚝` produit un caractère en fonction de la lettre qui a été tapée avant. Propergol l’utilise comme une touche magique, pour éliminer les bigrammes les plus pénalisants de la disposition. Pour aller plus loin, `Alt-Repeat` peut aussi servir de raccourci pour des enchainements particulièrement fréquents (`ION`, `MENT`).
 
 Enfin, les [Clever Keys](https://github.com/Kawamashi/qmk_userspace/blob/main/README.md#clever-keys) étendent le concept de touche magique à tout le layout. On peut s’en servir par exemple :
--	pour ajouter automatiquement le `U` entre `Q` et une voyelle (ou une apostrophe)
+-	pour ajouter automatiquement le `U` entre `Q` et une voyelle (ou une apostrophe).
 -	pour mettre en majuscule la première lettre suivant une espace, lorsqu’elle est précédée par `.`, `?`, ou `!`. Plus besoin d’utiliser Shift en début de phrase !
 -	pour changer le comportement de la touche *Repeat* dans certaines circonstances. En français, `Repeat` me sert aussi de touche apostrophe.
--	pour donner des effets “magiques” à n’importe quelle touche, pas seulement `Alt-Repeat`
--	pour paramétrer plus finement celle-ci, en tenant compte de la série de touches tapées avant et non pas seulement de la dernière
+-	pour donner des effets “magiques” à n’importe quelle touche, pas seulement `Alt-Repeat`.
+-	pour paramétrer plus finement celle-ci, en tenant compte de la série de touches tapées avant et non pas seulement de la dernière.
   
 Ces fonctionnalités permettent d’éliminer la totalité des répétitions de caractères, la majeure partie des redirections fréquentes, des ciseaux et des SFB (seulement 0.35 % en français et 0.4 % en anglais).
 
