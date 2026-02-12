@@ -38,7 +38,7 @@ La touche *Alt-Repeat* `⚝` produit un caractère en fonction de la lettre qui 
 
 Enfin, les [Clever Keys](https://github.com/Kawamashi/qmk_userspace/blob/main/README.md#clever-keys) étendent le concept de touche magique à tout le layout. On peut s’en servir par exemple :
 -	pour ajouter automatiquement le `U` entre `Q` et une voyelle (ou une apostrophe)
--	pour mettre en majuscule la première lettre suivant une espace, lorsqu’elle est précédée par `.`, `?`, ou `!`. Autrement dit, Shift est automatiquement appliqué en début de phrase !
+-	pour mettre en majuscule la première lettre suivant une espace, lorsqu’elle est précédée par `.`, `?`, ou `!`. Plus besoin d’utiliser Shift en début de phrase !
 -	pour changer le comportement de la touche *Repeat* dans certaines circonstances. En français, `Repeat` me sert aussi de touche apostrophe.
 -	pour donner des effets “magiques” à n’importe quelle touche, pas seulement `Alt-Repeat`
 -	pour paramétrer plus finement celle-ci, en tenant compte de la série de touches tapées avant et non pas seulement de la dernière
