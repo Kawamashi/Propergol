@@ -4,8 +4,8 @@ locale      = "fr"
 variant     = "Kawa"
 author      = "Kawamashi"
 description = "Propergol"
-url         = "https://OneDeadKey.github.com/kalamine"
-version     = "0.0.5"
+url         = "https://github.com/Kawamashi/Propergol"
+version     = "0.0.7"
 geometry    = "ERGO"
 
 base = '''
