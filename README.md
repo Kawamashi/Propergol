@@ -3,7 +3,7 @@
 
 ![layout](Propergol2.png)
 
-Propergol est une disposition de clavier pour le français et l’anglais dont le but est d’être la plus ergonomique possible. Pour ça, elle tire parti de toutes les possibilités offertes par les claviers ergo programmables, que ce soit au niveau de leur géométrie (avec leurs quatre touches de pouce au minimum) ou des fonctionnalités offertes par leur firmware. Propergol nécessite un driver spécifique côté OS et un clavier utilisant [QMK](https://qmk.fm/).
+Propergol est une disposition de clavier pour le français et l’anglais dont le but est d’être la plus ergonomique possible. Pour ça, elle tire parti de toutes les possibilités offertes par les claviers ergo programmables, que ce soit au niveau de leur géométrie (avec leurs quatre touches de pouce au minimum) ou des fonctionnalités offertes par leur firmware. Propergol nécessite un driver spécifique côté OS et un firmware [QMK](https://qmk.fm/) côté clavier.
 
 Je voulais que Propergol soit extrêmement confortable, avec une heatmap et une charge des doigts très équilibrée et particulièrement peu de difficultés (bigrammes à un doigt, ciseaux, extensions latérales et mauvaises redirections). La disposition privilégie les roulements pour une expérience de frappe fluide, et plus particulièrement les roulements vers l’intérieur, les plus confortables. Elle minimise les redirections et les longues séquences tapées avec une seule main, qui fatiguent inutilement l’une des deux mains. Par conséquent, la frappe rebondit naturellement entre les deux mains. Elle reste “régulière” et rythmée.
 
