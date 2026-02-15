@@ -24,22 +24,22 @@ De même, ces dispositions améliorent beaucoup le confort de frappe, en diminua
 
 La seule solution pour optimiser davantage le layout est de changer l’un des postulats de base, à savoir la compatibilité avec un clavier standard. À ce titre, Propergol propose : 
 -	d’utiliser quatre touches de pouce au lieu de la seule barre d’espace
--	d’intégrer une touche *Repeat* et une touche magique
--	d’exploiter les possibilités offertes par les *Clever Keys*, qui rendent le layout adaptatif.
+-	d’intégrer une touche [Repeat](https://docs.qmk.fm/features/repeat_key) et une touche [magique](https://docs.qmk.fm/features/repeat_key#alternate-repeating)
+-	d’exploiter les possibilités offertes par les [Clever Keys](https://github.com/Kawamashi/qmk_userspace/blob/main/README.md#clever-keys), qui rendent le layout adaptatif.
 
 &nbsp;</br>
 
 ## Détail des solutions employées
 L’utilisation des touches de pouce présente de nombreux avantages. En premier lieu, la disposition gagne une touche de repos. Le `E` était le candidat naturel vu sa fréquence d’utilisation en français comme en anglais. Son placement sous un pouce permet de mieux équilibrer la charge de tous les doigts. De plus, avoir une touche sous un pouce fait mécaniquement diminuer les SFB, les ciseaux et les mauvaises redirections.
 
-Propergol utilise la touche [*Repeat*](https://docs.qmk.fm/features/repeat_key) et la touche [*Alt-Repeat*](https://docs.qmk.fm/features/repeat_key#alternate-repeating) de QMK. `Repeat` permet de répéter la dernière touche tapée. En la mettant sous un pouce, on transforme tous les SKB en roulements vers l’intérieur, l’enchainement le plus confortable ! 
+Propergol utilise la touche [Repeat](https://docs.qmk.fm/features/repeat_key) et la touche [Alt-Repeat](https://docs.qmk.fm/features/repeat_key#alternate-repeating) de QMK. `Repeat` permet de répéter la dernière touche tapée. En la mettant sous un pouce, on transforme tous les SKB en roulements vers l’intérieur, l’enchainement le plus confortable ! 
 
-La touche *Alt-Repeat* `⚝` produit un caractère en fonction de la lettre qui a été tapée avant. Propergol l’utilise comme une touche magique, pour éliminer les bigrammes les plus pénalisants de la disposition. Pour aller plus loin, `Alt-Repeat` peut aussi servir de raccourci pour des enchainements particulièrement fréquents (`ION`, `MENT`).
+La touche Alt-Repeat `⚝` produit un caractère en fonction de la lettre qui a été tapée avant. Propergol l’utilise comme une touche magique, pour éliminer les bigrammes les plus pénalisants de la disposition. Pour aller plus loin, `Alt-Repeat` peut aussi servir de raccourci pour des enchainements particulièrement fréquents (`ION`, `MENT`).
 
 Enfin, les [Clever Keys](https://github.com/Kawamashi/qmk_userspace/blob/main/README.md#clever-keys) étendent le concept de touche magique à tout le layout. On peut s’en servir par exemple :
--	pour ajouter automatiquement le `U` entre `Q` et une voyelle (ou une apostrophe).
+-	pour ajouter automatiquement `U` entre `Q` et une voyelle (ou une apostrophe).
 -	pour mettre en majuscule la première lettre suivant une espace, lorsqu’elle est précédée par `.`, `?`, ou `!`. Plus besoin d’utiliser Shift en début de phrase !
--	pour changer le comportement de la touche *Repeat* dans certaines circonstances. En français, `Repeat` me sert aussi de touche apostrophe.
+-	pour changer le comportement de la touche Repeat dans certaines circonstances. En français, `Repeat` me sert aussi de touche apostrophe.
 -	pour donner des effets “magiques” à n’importe quelle touche, pas seulement `Alt-Repeat`.
 -	pour paramétrer plus finement celle-ci, en tenant compte de la série de touches tapées avant et non pas seulement de la dernière.
   
@@ -100,7 +100,7 @@ Propergol repousse les limites de la touche morte en l’implémentant comme une
 ## Pour le français et l’anglais
 Propergol a été conçu pour que la frappe soit la plus confortable possible, dans les deux langues. Pour permettre cela, le `H` (9e lettre la plus fréquente en anglais) et le `U` (8e lettre la plus fréquente en français) n’ont pas été placées sur la rangée de repos, mais sur des touches néanmoins très accessibles. Grâce à ce compromis, la heatmap et la charge des doigts sont équilibrées dans les deux langues. 
 
-Les enchainements de lettres ont été étudiés de manière à créer le moins de difficultés possibles (bigrammes à un doigt, ciseaux, extensions latérales et mauvaises redirections). Grâce à l’usage des touches de pouce, des touches *Repeat* et *Magic* ainsi que des Clever Keys, Propergol contient ces difficultés à un niveau plancher :
+Les enchainements de lettres ont été étudiés de manière à créer le moins de difficultés possibles (bigrammes à un doigt, ciseaux, extensions latérales et mauvaises redirections). Grâce à l’usage des touches de pouce, des touches Repeat et Magic ainsi que des Clever Keys, Propergol contient ces difficultés à un niveau plancher :
 
 &nbsp;</br>
 
