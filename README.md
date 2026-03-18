@@ -34,7 +34,7 @@ L’utilisation des touches de pouce présente de nombreux avantages. En premier
 
 Propergol utilise la touche [Repeat](https://docs.qmk.fm/features/repeat_key) et la touche [Alt-Repeat](https://docs.qmk.fm/features/repeat_key#alternate-repeating) de QMK. `Repeat` permet de répéter la dernière touche tapée. En la mettant sous un pouce, on transforme tous les SKB en roulements vers l’intérieur, l’enchainement le plus confortable ! 
 
-La touche Alt-Repeat `⚝` produit un caractère en fonction de la lettre qui a été tapée avant. Propergol l’utilise comme une touche magique, pour éliminer les bigrammes les plus pénalisants de la disposition. Pour aller plus loin, `Alt-Repeat` peut aussi servir de raccourci pour des enchainements particulièrement fréquents (`ION`, `MENT`).
+La touche Alt-Repeat `⚝` produit un caractère en fonction de la lettre qui a été tapée avant. Propergol l’utilise comme une touche magique, pour éliminer les bigrammes les plus pénalisants de la disposition. Pour aller plus loin, `Alt‑Repeat` peut aussi servir de raccourci pour des enchainements particulièrement fréquents (`ION`, `MENT`).
 
 Enfin, les [Clever Keys](https://github.com/Kawamashi/qmk_userspace/blob/main/README.md#clever-keys) étendent le concept de touche magique à tout le layout. On peut s’en servir par exemple :
 -	pour ajouter automatiquement `U` entre `Q` et une voyelle (ou une apostrophe).
