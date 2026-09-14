@@ -1,7 +1,7 @@
 # Propergol, l’ergonomie sans compromis
  A SturdE-style keyboard layout for French-speaking typists and programmers.
 
-<img src="Images/Propergol2.png" width="820">
+<img src="Images/Propergol.png" width="820">
 
 Propergol est une disposition de clavier pour le français et l’anglais dont le but est d’être la plus ergonomique possible. Pour ça, elle tire parti de toutes les possibilités offertes par les claviers ergo programmables, que ce soit au niveau de leur géométrie (avec leurs quatre touches de pouce au minimum) ou des fonctionnalités offertes par leur firmware. Propergol nécessite un driver spécifique côté OS et un firmware [QMK](https://qmk.fm/) côté clavier.
 
