@@ -286,25 +286,23 @@ L’usage de la touche 1DK est donc très réduit avec Propergol, aux alentours 
 
 <img src="Images/Propergol_symboles.png" width="820">
 
-Propergol utilise une couche de programmation inspirée de celle d’Ergo-L, accessible également avec `Alt-gr`. Cette dernière est très bien pensée, mais certaines choses me gênent un peu. Propergol propose une alternative, avec :
--	les délimiteurs `()` `[]` `{}` en bloc sur la main gauche
--	`<>` et `^$` sur la main gauche également
--	les symboles arithmétiques `/` `-` `+` `*` sur la home-row de la main droite, avec `/` en position de repos de l’index
-- `"` et `'` facilement accessibles, avec l’index également
--	 `;` en position de repos de l’autre index
--	un bloc pour les opérateurs booléens `&` `|` `~`
--	les symboles peu courants (`%` `#` `^` `@` `~`) dans les coins ou sur les colonnes intérieures
+Propergol utilise une couche de programmation optimisée, accessible avec `Alt-gr`, comme celle d’Ergo‑L. Cette dernière est très bien pensée, mais certains enchaînements me gênent un peu. Propergol propose une alternative, avec :
+-	les délimiteurs `()` `[]` `{}` sous le majeur et l’index, les doigts les plus forts
+-	les symboles arithmétiques `+` `*` `/` `-` et de comparaison `=` `<` `>` `!` sur la main gauche, placés de manière à optimiser les enchaînements de symboles les plus courants
+- `;` et `"` sur la home-row de la main droite, `:` très accessible également 
+-	les symboles peu courants (`` ` `` `^` `@` `~`) dans les coins ou sur les colonnes intérieures
+-	`.` `!` et `?` sont aux mêmes emplacements que sur la couche de base
 
 Les enchainements de symboles les plus courants sont confortables. Par exemple : 
--	`()` `[]` `{}` `<>` : roulements vers l’intérieur
--	`);` : roulement vers l’intérieur
+-	`()` `[]` `{}` `<>` : roulements
+-	`);` : roulement vers l’extérieur
 -	`!=` et `+=` : roulements vers l’intérieur
--	`>=` et `<=` : alternance
--	`->` et `<-` : alternance
+-	`>=` et `<=` : roulements vers l’intérieur
+-	`->` et `=>` : roulements vers l’extérieur
 -	`/*` et `*/` : roulements
--	`";` : alternance
+-	`";` : roulement vers l’intérieur
 -	`~/` : roulement vers l’intérieur
--	`</` : alternance
+-	`</` : roulement vers l’intérieur
 -	`["]` : alternance
 
 Enfin, le tiret bas `_` est particulièrement accessible (`★` `espace`).
