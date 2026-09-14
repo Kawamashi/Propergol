@@ -133,29 +133,29 @@ Les enchainements de lettres ont été étudiés de manière à créer le moins 
    <tr>
     <th rowspan="5">Français</th>
     <th>Propergol base</th>
-    <td>0.39 %</td>
-    <td>3.71 %</td>
-    <td>1.20 %</td>
+    <td>0.44 %</td>
+    <td>3.70 %</td>
+    <td>1.21 %</td>
     <td>1.12 %</td>
     <td>0.09 %</td>
     <td>2.37 %</td>
     <td>0.44 %</td>
-    <td>7.46 %</td>
-    <td>0.24 %</td>
+    <td>7.29 %</td>
+    <td>0.23 %</td>
     <td>2.54 %</td>
     <td>4.98 %</td>
    </tr>
    <tr>
     <th>Propergol + options</th>
-    <td>0.36 %</td>
+    <td>0.39 %</td>
     <td>3.79 %</td>
     <td>1.24 %</td>
     <td>1.12 %</td>
     <td>0.08 %</td>
     <td>2.00 %</td>
     <td>0.31 %</td>
-    <td>5.56 %</td>
-    <td>0.21 %</td>
+    <td>5.43 %</td>
+    <td>0.20 %</td>
     <td>2.44 %</td>
     <td>6.35 %</td>
    </tr>
@@ -196,29 +196,29 @@ Les enchainements de lettres ont été étudiés de manière à créer le moins 
    <tr>
     <th rowspan="5">Anglais</th>
     <th>Propergol base</th>
-    <td>0.42 %</td>
-    <td>5.49 %</td>
+    <td>0.49 %</td>
+    <td>5.58 %</td>
     <td>0.82 %</td>
-    <td>1.93 %</td>
+    <td>2.00 %</td>
     <td>0.12 %</td>
     <td>2.56 %</td>
-    <td>0.73 %</td>
-    <td>8.94 %</td>
-    <td>0.97 %</td>
+    <td>0.71 %</td>
+    <td>8.80 %</td>
+    <td>0.95 %</td>
     <td>2.95 %</td>
     <td>2.86 %</td>
    </tr>
    <tr>
     <th>Propergol + options</th>
-    <td>0.42 %</td>
-    <td>4.87 %</td>
+    <td>0.46 %</td>
+    <td>4.98 %</td>
     <td>0.83 %</td>
-    <td>1.68 %</td>
+    <td>1.75 %</td>
     <td>0.13 %</td>
     <td>2.07 %</td>
-    <td>0.48 %</td>
-    <td>6.71 %</td>
-    <td>0.16 %</td>
+    <td>0.46 %</td>
+    <td>6.63 %</td>
+    <td>0.14 %</td>
     <td>2.66 %</td>
     <td>3.94 %</td>
    </tr>
