@@ -292,7 +292,7 @@ Propergol utilise une couche de programmation optimisée, accessible avec `Alt-g
 - `;` sur la home-row de la main droite, `:` très accessible également
 - les opérateurs booléens `~`, `|` et `&` sur une ligne
 - les délimiteurs de chaines de caractères `"`, `'` et `` ` `` sur une colonne
--	les symboles peu courants (`` ` `` `^` `@` `~`) dans les coins ou sur les colonnes intérieures
+-	les symboles peu fréquents (`` ` `` `^` `@` `~`) dans les coins ou sur les colonnes intérieures
 -	`.` `!` et `?` sont aux mêmes emplacements que sur la couche de base
 
 Les enchainements de symboles les plus courants sont confortables. Par exemple : 
