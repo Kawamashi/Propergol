@@ -287,9 +287,11 @@ L’usage de la touche 1DK est donc très réduit avec Propergol, aux alentours 
 <img src="Images/Propergol_symboles.png" width="820">
 
 Propergol utilise une couche de programmation optimisée, accessible avec `Alt-gr`, comme celle d’Ergo‑L. Cette dernière est très bien pensée, mais certains enchaînements me gênent un peu. Propergol propose une alternative, avec :
--	les délimiteurs `()` `[]` `{}` sous le majeur et l’index, les doigts les plus forts
--	les symboles arithmétiques `+` `*` `/` `-` et de comparaison `=` `<` `>` `!` sur la main gauche, placés de manière à optimiser les enchaînements de symboles les plus courants
-- `;` et `"` sur la home-row de la main droite, `:` très accessible également 
+-	les délimiteurs `()` `[]` `{}` sur deux colonnes
+-	les symboles arithmétiques `+` `*` `/` `-` et de comparaison `=` `<` `>` `!` sur deux lignes, placés de manière à optimiser les enchaînements de symboles les plus courants
+- `;` sur la home-row de la main droite, `:` très accessible également
+- les opérateurs booléens `~`, `|` et `&` sur une ligne
+- les délimiteurs de chaines de caractères `"`, `'` et `` ` `` sur une colonne
 -	les symboles peu courants (`` ` `` `^` `@` `~`) dans les coins ou sur les colonnes intérieures
 -	`.` `!` et `?` sont aux mêmes emplacements que sur la couche de base
 
@@ -303,11 +305,11 @@ Les enchainements de symboles les plus courants sont confortables. Par exemple :
 -	`";` : roulement vers l’intérieur
 -	`~/` : roulement vers l’intérieur
 -	`</` : roulement vers l’intérieur
--	`["]` : alternance
+-	`['` et `']` : roulements
 
-Enfin, le tiret bas `_` est particulièrement accessible (`★` `espace`).
+Enfin, le tiret bas `_` est particulièrement accessible (`★` `espace`). 
 
-
+Il existe une règle magique sur cette couche :	`:` `&` → `:=`, pour transformer le SFB `:=` en roulement vers l’extérieur.
 
 Si vous préférez la couche de symboles d’Ergo-L, ce n’est pas un souci. Il vous suffit d’éditer le .toml de Propergol pour remplacer la couche Alt-gr par celle d’Ergo-L. [Kalamine](https://github.com/OneDeadKey/kalamine) vous créera votre driver personnalisé en deux temps trois mouvements !
 
