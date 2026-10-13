@@ -286,7 +286,7 @@ L’usage de la touche 1DK est donc très réduit avec Propergol, aux alentours 
 
 <img src="Images/Propergol_symboles.png" width="820">
 
-Propergol utilise une couche de programmation optimisée, accessible avec `Alt-gr`, comme celle d’Ergo‑L. Cette dernière est très bien pensée, mais certains enchaînements me gênent un peu. Propergol propose une alternative, avec :
+Propergol utilise une couche de programmation optimisée, accessible avec `Alt-gr`, comme celle d’Ergo‑L. Cette dernière est bien pensée, mais certains enchaînements me gênent un peu. Propergol propose une alternative, avec :
 -	les délimiteurs `()` `[]` `{}` sur deux colonnes
 -	les symboles arithmétiques `+` `*` `/` `-` et de comparaison `=` `<` `>` `!` sur deux lignes, placés de manière à optimiser les enchaînements de symboles les plus courants
 - `;` sur la home-row de la main droite, `:` très accessible également
