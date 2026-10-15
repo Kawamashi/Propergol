@@ -280,6 +280,12 @@ J’aime beaucoup l’approche Lafayette, mais je voulais que les caractères le
 
 L’usage de la touche 1DK est donc très réduit avec Propergol, aux alentours de 0.6 %. 
 
+Pour d’autres langues, de nombreuses touches mortes sont disponibles en `Shift` + `AltGr` :
+<details>
+<summary>Shift + AltGr</summary>
+<img src="https://github.com/Kawamashi/qmk_krypton_keymaps/blob/main/png/Common/symbols layer ext.png" width="820">
+</details>
+
 &nbsp;</br>
 
 ## Propergol pour la programmation
